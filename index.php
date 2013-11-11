@@ -53,6 +53,22 @@
       <div class="row">
 	<div class="twelve columns">
 	  <h3>Announcements</h3>
+	  <?php
+	     require_once($_SERVER['DOCUMENT_ROOT'] . "/lib/simplepie/autoloader.php");
+
+	     $feed = new SimplePie();
+	     $feed->set_feed_url("http://wvkcsecretaries.blogspot.com/feeds/posts/default");
+	     $feed->init();
+             $feed->handle_content_type();
+
+             foreach($feed->get_items() as $item) {
+	     ?>
+	  <div class="item">
+	    <h4><a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a></h4>
+	  </div>
+	  <?php
+	     }
+	     ?>
 	</div>
       </div>
     </div>
