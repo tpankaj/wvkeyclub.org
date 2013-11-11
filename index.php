@@ -54,6 +54,7 @@
 	<div class="twelve columns">
 	  <h3>Announcements</h3>
 	  <?php
+	     date_default_timezone_set("America/Los_Angeles");
 	     require_once($_SERVER['DOCUMENT_ROOT'] . "/lib/simplepie/autoloader.php");
 
 	     $feed = new SimplePie();
@@ -65,9 +66,9 @@
 	     ?>
 	  <div class="item">
 	    <h4><a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a></h4>
-	    <h5>Posted on <?php echo $item->get_date('j F Y | g:i a'); ?></h5>
+	    <h5><?php echo $item->get_date('j F Y | g:i a'); ?></h5>
 	    <?php
-	       echo "test";
+	       echo echo $item->get_content();
 	       ?>
 	  </div>
 	  <?php
