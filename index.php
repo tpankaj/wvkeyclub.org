@@ -65,7 +65,7 @@
              foreach($feed->get_items() as $item) {
 	     ?>
 	  <div class="item">
-	    <h4><a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a></h4>
+	    <h4><?php echo $item->get_title(); ?></h4>
 	    <h5><?php echo $item->get_date('j F Y | g:i a'); ?></h5>
 	    <?php
 	       echo $item->get_content();
