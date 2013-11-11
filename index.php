@@ -68,7 +68,7 @@
 	    <h4><a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a></h4>
 	    <h5><?php echo $item->get_date('j F Y | g:i a'); ?></h5>
 	    <?php
-	       echo echo $item->get_content();
+	       echo $item->get_content();
 	       ?>
 	  </div>
 	  <?php
