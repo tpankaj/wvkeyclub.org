@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width" />
     <title>Westview Key Club</title>
     <link rel="icon" type="image/png" href="/img/icon.png">
-    <link rel="stylesheet" href="css/foundation.css">
-    <script src="js/vendor/custom.modernizr.js"></script>
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/offcanvas.css">
+    <link rel="stylesheet" href="/css/presentation.css">
+    <script src="/js/vendor/custom.modernizr.js"></script>
   </head>
 
-  <body>
+  <body class="off-canvas hide-extras">
 
     <!-- Nav Section for Large Screens -->
     <nav class="top-bar hide-for-small">
@@ -48,12 +51,26 @@
       </section>
     </nav>
 
+    <section role="main">
+      
+      <header>
+	<div class="row">
+	  <div class="twelve columns">
+	    <a class="sidebar-button show-for-small" id="sideBarButton" href="#sidebar"><img src="/img/offcanvas/menu-wht.png" /><h4>Westview Key Club</h4></a>
+	  </div>
+	</div>
+      </header>
+
+      <section id="mainContent">
+      </section>
+    </section>
+
     <script>
       document.write('<script src=' +
 			      ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
 			      '.js><\/script>')
       </script>
-      <script src="js/foundation.min.js"></script>
+      <script src="/js/foundation.min.js"></script>
       <script>
 	$(document).foundation();
       </script>
