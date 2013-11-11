@@ -46,7 +46,7 @@
       </section>
     </nav>
 
-    <div class="mainContent">
+    <div id="mainContent">
       <div class="row">
 	<div class="large-9 large-centered columns">
 	  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempus volutpat porta. Sed magna nisl, feugiat vel sem nec, molestie tempor enim. Donec dictum turpis dapibus augue volutpat, at cursus sapien ornare. Donec adipiscing pharetra euismod. Proin dolor lorem, laoreet eget cursus ac, fringilla a felis. Duis euismod sapien eget quam tempor commodo. Morbi libero leo, cursus vel fermentum et, auctor tristique neque. Sed ullamcorper id elit nec posuere.
