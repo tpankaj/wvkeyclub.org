@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width">
     <title>Westview Key Club</title>
     <link rel="icon" type="image/png" href="/img/icon.png">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/presentation.css">
     <link rel="stylesheet" href="/css/foundation.css">
     <script src="/js/vendor/custom.modernizr.js"></script>
   </head>
@@ -44,6 +46,7 @@
       </section>
     </nav>
 
+    <div class="mainContent">
       <div class="row">
 	<div class="large-9 large-centered columns">
 	  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempus volutpat porta. Sed magna nisl, feugiat vel sem nec, molestie tempor enim. Donec dictum turpis dapibus augue volutpat, at cursus sapien ornare. Donec adipiscing pharetra euismod. Proin dolor lorem, laoreet eget cursus ac, fringilla a felis. Duis euismod sapien eget quam tempor commodo. Morbi libero leo, cursus vel fermentum et, auctor tristique neque. Sed ullamcorper id elit nec posuere.
@@ -67,7 +70,7 @@ Cras imperdiet odio vel felis tincidunt pulvinar. Vestibulum at mauris porta nis
 Aenean facilisis quis urna in dictum. Proin dolor purus, facilisis sed iaculis tempor, fringilla nec erat. In velit odio, convallis vitae suscipit a, pulvinar id ante. Donec nisi metus, pharetra eget condimentum a, aliquam ac metus. Curabitur sagittis lacinia risus, vitae pretium ante ullamcorper in. Aenean facilisis ultrices dolor. Maecenas ut ornare nisi, at consequat purus. Vestibulum accumsan consequat dolor id consequat. Ut eget mollis odio. Sed convallis nisi in mi sollicitudin, a vulputate nisl blandit. Aenean vel urna quis neque congue suscipit a eu diam. Vivamus adipiscing lectus mi, a lobortis velit sagittis sed. Fusce eu nibh nisi. Nullam vitae aliquam ligula. Donec vulputate nisl vel venenatis ultrices. Mauris porttitor, urna a sollicitudin porttitor, purus libero pharetra erat, non scelerisque tellus mi ac risus.
       </div>
     </div>
-
+    </div>
     <script>
       document.write('<script src=' +
 			      ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
