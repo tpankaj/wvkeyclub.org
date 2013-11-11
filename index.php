@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="/css/presentation.css">
     <link rel="stylesheet" href="/css/foundation.css">
     <script src="/js/vendor/custom.modernizr.js"></script>
+
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
   </head>
 
   <body>
@@ -63,13 +68,13 @@
              $feed->handle_content_type();
 
              foreach($feed->get_items() as $item) {
-	     ?>
+	?>
 	  <div class="item">
 	    <h4><?php echo $item->get_title(); ?></h4>
 	    <h5><?php echo $item->get_date('j F Y | g:i a'); ?></h5>
 	    <?php
 	       echo $item->get_content();
-	       ?>
+	    ?>
 	  </div>
 	  <?php
 	     }
