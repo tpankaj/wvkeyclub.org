@@ -21,7 +21,7 @@
 	<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
 
-      <div class="top-bar-section">
+      <section class="top-bar-section">
 	<ul class="right">
 	  <li class="show-for-small">
 	    <a href="/">Home</a>
@@ -42,10 +42,9 @@
 	    <a href="/about-us">About Us</a>
 	  </li>
 	</ul>
-      </div>
+      </section>
     </nav>
 
-    <div id="content">
       <div class="row">
 	<div class="large-9 large-centered columns">
 	  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempus volutpat porta. Sed magna nisl, feugiat vel sem nec, molestie tempor enim. Donec dictum turpis dapibus augue volutpat, at cursus sapien ornare. Donec adipiscing pharetra euismod. Proin dolor lorem, laoreet eget cursus ac, fringilla a felis. Duis euismod sapien eget quam tempor commodo. Morbi libero leo, cursus vel fermentum et, auctor tristique neque. Sed ullamcorper id elit nec posuere.
@@ -67,7 +66,6 @@ In sagittis cursus eros, quis mattis nulla aliquam vitae. Cum sociis natoque pen
 Cras imperdiet odio vel felis tincidunt pulvinar. Vestibulum at mauris porta nisl dignissim eleifend. Phasellus pretium in arcu a euismod. Proin eu euismod justo. Donec venenatis, dolor non molestie dapibus, diam nisl pharetra sem, sed rutrum nulla orci sed quam. Aenean mattis velit nibh, in commodo odio pulvinar a. In et vehicula augue. Vivamus at dolor suscipit, tempor mauris sed, tincidunt arcu. Vestibulum ut tortor sagittis odio tempor fermentum. Morbi tincidunt orci non neque eleifend vehicula. Nullam sed mauris nec magna euismod mollis nec ut risus. Donec justo mauris, egestas sed velit eu, porta malesuada orci. Suspendisse pretium dui eu eros accumsan tincidunt at non enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas placerat posuere semper.
 
 Aenean facilisis quis urna in dictum. Proin dolor purus, facilisis sed iaculis tempor, fringilla nec erat. In velit odio, convallis vitae suscipit a, pulvinar id ante. Donec nisi metus, pharetra eget condimentum a, aliquam ac metus. Curabitur sagittis lacinia risus, vitae pretium ante ullamcorper in. Aenean facilisis ultrices dolor. Maecenas ut ornare nisi, at consequat purus. Vestibulum accumsan consequat dolor id consequat. Ut eget mollis odio. Sed convallis nisi in mi sollicitudin, a vulputate nisl blandit. Aenean vel urna quis neque congue suscipit a eu diam. Vivamus adipiscing lectus mi, a lobortis velit sagittis sed. Fusce eu nibh nisi. Nullam vitae aliquam ligula. Donec vulputate nisl vel venenatis ultrices. Mauris porttitor, urna a sollicitudin porttitor, purus libero pharetra erat, non scelerisque tellus mi ac risus.
-	</div>
       </div>
     </div>
 
