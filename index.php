@@ -21,7 +21,7 @@
 	<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
 
-      <section class="top-bar-section">
+      <div class="top-bar-section">
 	<ul class="right">
 	  <li class="show-for-small">
 	    <a href="/">Home</a>
@@ -42,7 +42,7 @@
 	    <a href="/about-us">About Us</a>
 	  </li>
 	</ul>
-      </section>
+      </div>
     </nav>
 
     <script>
