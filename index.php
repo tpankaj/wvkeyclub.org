@@ -48,7 +48,7 @@
 
     <div id="mainContent">
       <div class="row">
-	<div class="small-10 large-centered columns">
+	<div class="twelve columns">
 	  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempus volutpat porta. Sed magna nisl, feugiat vel sem nec, molestie tempor enim. Donec dictum turpis dapibus augue volutpat, at cursus sapien ornare. Donec adipiscing pharetra euismod. Proin dolor lorem, laoreet eget cursus ac, fringilla a felis. Duis euismod sapien eget quam tempor commodo. Morbi libero leo, cursus vel fermentum et, auctor tristique neque. Sed ullamcorper id elit nec posuere.
 
 Cras leo ipsum, eleifend vel porta vel, blandit in magna. Duis convallis tellus ipsum, commodo molestie lorem vulputate nec. Maecenas sit amet massa nec sapien egestas malesuada vel sit amet augue. Fusce cursus faucibus augue sit amet sagittis. Curabitur vel elit sed turpis vulputate posuere sed ac est. Sed sed nibh quis tortor facilisis eleifend nec sit amet tortor. Duis ac ante egestas, molestie turpis nec, luctus tellus.
