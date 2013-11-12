@@ -84,6 +84,28 @@
 	</div>
       </div>
 
+      <!-- Lily Vo, Secretary -->
+      <div class="row">
+	<div class="four columns">
+	  <div class="row">
+	    <div class="twelve columns">
+	      <img src="/officers/images/vo-lily.jpg" />
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="twelve columns" style="text-align:center;">
+	      <h4><a href="mailto:lilyhnvo@gmail.com">Lily Vo</a><br />
+	      Secretary</h4>
+	    </div>
+	  </div>
+	</div>
+	<div class="eight columns">
+	  <p>
+	    I’m Lily Vo and I’m Westview Key Club’s 2013-2014 Secretary. I’ve been a dedicated Key Clubber since Freshman year; holding positions such as Freshman and Sophomore Director. As my first year as an executive board member, I am honored to be sharing another unforgettable Key Club year with my fellow friends and peers. With two years of experience on the board, I am ready to move one step further to fulfill my role as Secretary and the responsibilities and duties that entails. My Key Club passion sparked at the CNH District Convention in Anaheim 2013. What was once a passive, obligatory attitude to wake up at the crack of dawn and pass out t shirts and water cups became an obsession, a new profound love to all things Key Club. I began going to divisional events, meeting and collaborating with people who share the same love and dedication to Key Club, and offered my time and effort to the community on a much larger scale. My goal is to help you discover your Key Club "spark". The spark that will allow you to experience all the same, hopefully even more, experiences I am fortunate enough to hold close to my heart. Make the most out of your next Key Club year and welcome to our crazy, but energetic, ohana!
+	  </p>
+	</div>
+      </div>
+
     </div>
 
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/footer.php"); ?>
