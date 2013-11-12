@@ -23,7 +23,7 @@
   src: local('Open Sans Italic'), local('OpenSans-Italic'), url('/fonts/OpenSans-Italic.ttf') format('truetype');
 }
 
-html,body,p,ul,ol,dl {
+html,body,p,ul,ol,dl,li {
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: normal;
 }
