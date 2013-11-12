@@ -31,7 +31,7 @@
       <div class="row">
 	<div class="twelve columns">
 	  <p>
-	    To become a registered member, turn in all of these forms along with the $13 dues by November 21, 2013. After this date, the dues will go up to $15.
+	    To become a registered member, turn in all of these forms along with the $13 dues by November 21, 2013. After this date, the dues will go up to $15. Checks should be made payable to Westview Key Club.
 	  </p>
 	  <p>
 	    <a href="/forms/Trip%20Permit.pdf">Trip Permit</a><br />
