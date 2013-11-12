@@ -19,13 +19,13 @@
 	</div>
       </div>
     </header>
+    <div class="row show-for-small">
+      <div class="twelve columns">
+	<h1>Officers</h1>
+      </div>
+    </div>
 
     <div id="mainContent">
-      <div class="row show-for-small">
-	<div class="twelve columns">
-	  <h1>Officers</h1>
-	</div>
-      </div>
     </div>
 
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/footer.php"); ?>
