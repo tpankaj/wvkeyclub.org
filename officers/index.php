@@ -12,10 +12,10 @@
   <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/navbar.php"); ?>
 
-    <header>
-      <div class="row hide-for-small">
+    <header class="hide-for-small">
+      <div class="row">
 	<div class="twelve columns">
-	  <h1>Club Officers</h1>
+	  <h1>Officers</h1>
 	</div>
       </div>
     </header>
@@ -23,7 +23,7 @@
     <div id="mainContent">
       <div class="row show-for-small">
 	<div class="twelve columns">
-	  <h1>Club Officers</h1>
+	  <h1>Officers</h1>
 	</div>
       </div>
     </div>
