@@ -55,7 +55,9 @@
 	  </div>
 	</div>
 	<div class="nine columns">
-	  I’m Michael Zhang, WVKC’s 2013-2014 President. I’ve been a part of Key Club since freshman year, and have enjoyed every minute. Previously the club’s webmaster, I’ve been focused on inspiring greater involvement from YOU, the people that make this club great. Whether it's a community run, Fall Rally or a festival, I always look forward to seeing our members dedicate themselves to service and even take on roles of leadership. I’m super excited for the year ahead; it’s full of opportunities to grow Key Club, from our divisional involvement, to our member count or our fundraising total. I’m always open to feedback, so feel free to send me an email or Facebook message if you have any suggestions or problems! I’m looking forward to the year ahead!
+	  <p>
+	    I’m Michael Zhang, WVKC’s 2013-2014 President. I’ve been a part of Key Club since freshman year, and have enjoyed every minute. Previously the club’s webmaster, I’ve been focused on inspiring greater involvement from YOU, the people that make this club great. Whether it's a community run, Fall Rally or a festival, I always look forward to seeing our members dedicate themselves to service and even take on roles of leadership. I’m super excited for the year ahead; it’s full of opportunities to grow Key Club, from our divisional involvement, to our member count or our fundraising total. I’m always open to feedback, so feel free to send me an email or Facebook message if you have any suggestions or problems! I’m looking forward to the year ahead!
+	  </p>
 	</div>
       </div>
 
