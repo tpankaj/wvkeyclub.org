@@ -13,19 +13,19 @@
 	<a href="/">Home</a>
       </li>
       <li>
-	<a href="/officers">Officers</a>
+	<a href="/officers/">Officers</a>
       </li>
       <li>
-	<a href="/events">Events</a>
+	<a href="/events/">Events</a>
       </li>
       <li>
-	<a href="/hours">Hours</a>
+	<a href="/hours/">Hours</a>
       </li>
       <li>
-	<a href="/forms">Forms</a>
+	<a href="/forms/">Forms</a>
       </li>
       <li>
-	<a href="/about-us">About Us</a>
+	<a href="/about-us/">About Us</a>
       </li>
     </ul>
   </section>
