@@ -1,9 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 
-body {
+html,body,p,ul,ol,dl {
     font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
     font-weight: 300;
 }
