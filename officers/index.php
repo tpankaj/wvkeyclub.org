@@ -42,9 +42,9 @@
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns">
-	      Michael Zhang<br />
-	      President
+	    <div class="twelve columns" style="text-align:center;">
+	      <h4>Michael Zhang</h4>
+	      <h4>President</h4>
 	    </div>
 	  </div>
 	</div>
