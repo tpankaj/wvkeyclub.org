@@ -44,7 +44,7 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns">
+	    <div class="twelve columns" style="text-align:center;">
 	      <img src="/officers/images/zhang-michael.jpg" />
 	    </div>
 	  </div>
@@ -68,7 +68,7 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns">
+	    <div class="twelve columns" style="text-align:center;">
 	      <img src="/officers/images/lang-iris.jpg" />
 	    </div>
 	  </div>
@@ -92,7 +92,7 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns">
+	    <div class="twelve columns" style="text-align:center;">
 	      <img src="/officers/images/vo-lily.jpg" />
 	    </div>
 	  </div>
@@ -116,7 +116,7 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns">
+	    <div class="twelve columns" style="text-align:center;">
 	      <img src="/officers/images/liu-shaoxiong.jpg" />
 	    </div>
 	  </div>
@@ -146,7 +146,7 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns">
+	    <div class="twelve columns" style="text-align:center;">
 	      <img src="/officers/images/chen-alec.jpg" />
 	    </div>
 	  </div>
@@ -176,7 +176,7 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns">
+	    <div class="twelve columns" style="text-align:center;">
 	      <img src="/officers/images/almasco-diandra.jpg" />
 	    </div>
 	  </div>
@@ -200,7 +200,7 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns">
+	    <div class="twelve columns" style="text-align:center;">
 	      <img src="/officers/images/doan-james.jpg" />
 	    </div>
 	  </div>
@@ -224,7 +224,7 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns">
+	    <div class="twelve columns" style="text-align:center;">
 	      <img src="/officers/images/yang-lucia.jpg" />
 	    </div>
 	  </div>
@@ -272,7 +272,7 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns">
+	    <div class="twelve columns" style="text-align:center;">
 	      <img src="/officers/images/du-amanda.jpg" />
 	    </div>
 	  </div>
@@ -296,7 +296,7 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns">
+	    <div class="twelve columns" style="text-align:center;">
 	      <img src="/officers/images/qi-harrison.jpg" />
 	    </div>
 	  </div>
@@ -320,7 +320,7 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns">
+	    <div class="twelve columns" style="text-align:center;">
 	      <img src="/officers/images/huang-kenneth.jpg" />
 	    </div>
 	  </div>
@@ -344,7 +344,7 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns">
+	    <div class="twelve columns" style="text-align:center;">
 	      <img src="/officers/images/cao-tony.jpg" />
 	    </div>
 	  </div>
