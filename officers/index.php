@@ -21,11 +21,35 @@
     </header>
 
     <div id="mainContent">
+
       <div class="row show-for-small">
 	<div class="twelve columns">
 	  <h1>Officers</h1>
 	</div>
       </div>
+
+      <div class="row">
+	<div class="twelve columns">
+	  <h3>Executive Board</h3>
+	</div>
+      </div>
+
+      <div class="row">
+	<div class="three columns">
+	  <div class="row">
+	    <div class="twelve columns">
+	      <img src="/officers/images/zhang-michael.jpg" />
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="twelve columns">
+	      Michael Zhang<br />
+	      President
+	    </div>
+	  </div>
+	</div>
+      </div>
+
     </div>
 
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/footer.php"); ?>
