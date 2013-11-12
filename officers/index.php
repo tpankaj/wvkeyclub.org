@@ -134,7 +134,7 @@
 	</div>
       </div>
 
-      <!-- Alec Chen -->
+      <!-- Alec Chen, Bulletin Editor -->
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
@@ -153,6 +153,12 @@
 	  <p>
 	    Hey guys! My name is Alec Chen and I'll be your 2013-2014 Key Club Bulletin Editor. My job is to keep members updated with the most recent news by sending a newsletter out every month. I hope to improve Key Club and make it one of the best clubs on campus by working with my fellow officers to improve activity inside and outside of the club. My goal for this year is for all of you to become more devoted and active members, and also helping people understand the value of giving back to the community. If you guys need to contact me, contact me an email or send me an email. I'll be more than glad to take suggestions on the newsletter!
 	  </p>
+	</div>
+      </div>
+
+      <div class="row">
+	<div class="twelve columns">
+	  <h3>Appointed Board</h3>
 	</div>
       </div>
 
