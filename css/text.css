@@ -1,14 +1,37 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: light;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('/fonts/OpenSans-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Open Sans'), local('OpenSans'), url('/fonts/OpenSans.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('/fonts/OpenSans-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url('/fonts/OpenSans-Italic.ttf') format('truetype');
+}
 
 html,body,p,ul,ol,dl {
     font-family: 'Open Sans', Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: normal;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-weight: 300;
+    font-weight: light;
 }
 
 strong, b, button, code {
-    font-weight: 700;
+    font-weight: bold;
 }
