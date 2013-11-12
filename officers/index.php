@@ -62,6 +62,28 @@
 	</div>
       </div>
 
+      <!-- Iris Lang, Vice President -->
+      <div class="row">
+	<div class="four columns">
+	  <div class="row">
+	    <div class="twelve columns">
+	      <img src="/officers/images/lang-iris.jpg" />
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="twelve columns" style="text-align:center;">
+	      <h4><a href="mailto:whyisirislang@gmail.com">Iris Lang</a><br />
+	      Vice President</h4>
+	    </div>
+	  </div>
+	</div>
+	<div class="eight columns">
+	  <p>
+	    Hi! I'm Iris, and I have officially crept from my position as Treasurer to the position of your Vice President for the 2013 - 2014 KC year. How glorious! I've been a dedicated member/officer since freshman year, accumulating 300 hours since. From simple elementary school festivals to California-Nevada-Hawaii's District-wide Convention, my passion to serve not only the community, but you guys as members has only grown&hellip;exponentially. In the past two years, my experience serving on both the Appointed and Executive Board has opened my eyes to the magic that happens behind-the-scenes--whether it’s staying up until 2am to find just one more volunteer opportunity, or communicating with our division-district liaisons to plan the perfect bake-sale, the hard work that's put into Key Club from members &amp; officers alike truly redefines the word "service". Outside of volunteering, I love Photobooth, bananas, and rhythmic gymnastics. I am also a huge advocate of Starbucks’ White Chocolate Mocha Frappuccinos, so do me a favor and try one please. Aside from everything, I cannot wait to see our club grow even more this year, and I hope, sometime in the next 12 months, that you will find your passion to serve. :) This is just the beginning.
+	  </p>
+	</div>
+      </div>
+
     </div>
 
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/footer.php"); ?>
