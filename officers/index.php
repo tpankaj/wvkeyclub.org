@@ -43,7 +43,7 @@
 	  </div>
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <h4>Michael Zhang<br />
+	      <h4><a href="mailto:wvkeyclub@gmail.com">Michael Zhang</a><br />
 	      President</h4>
 	    </div>
 	  </div>
