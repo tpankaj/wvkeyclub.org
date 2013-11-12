@@ -40,6 +40,7 @@
 	</div>
       </div>
 
+      <!-- Michael Zhang, President -->
       <div class="row">
 	<div class="three columns">
 	  <div class="row">
