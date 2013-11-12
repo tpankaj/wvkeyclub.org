@@ -30,6 +30,12 @@
 
       <div class="row">
 	<div class="twelve columns">
+	  <p>
+	    Here is a list of the officers in case you have any questions for them. If you want to contact someone specifically, click on their name to send them an email.	
+	  </p>
+	  <p>
+	    If there is not a name filling a position in the list below, that most likely means that the position is open for applications. If you would like to apply, please email <a href="mailto:wvkeyclub@gmail.com">wvkeyclub@gmail.com</a>.
+	  </p>
 	  <h3>Executive Board</h3>
 	</div>
       </div>
