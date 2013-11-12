@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  font-weight: light;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url('/fonts/OpenSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  src: local('Open Sans 300'), local('OpenSans-300'), url('/fonts/OpenSans-300.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -29,7 +29,7 @@ html,body,p,ul,ol,dl,li {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-weight: light;
+    font-weight: 300;
 }
 
 strong, b, button, code {
