@@ -32,23 +32,23 @@
 	<div class="twelve columns">
 	  <h3>How do you feel?!</h3>
 	  <p>
-	    WE FEEL GOOD. OH WE FEEL SO GOOD. [pelvic thrust]<br />
-	    WE FEEL FINE, ALL OF THE TIME.<br />
-	    Abooga, abooga, abooga, booga, booga!<br />
+	    WE FEEL GOOD! OH WE FEEL SO GOOD! UGH! [pelvic thrust]<br />
+	    WE FEEL FINE, ALL OF THE TIME!<br />
+	    ABOOGA! ABOOGA! ABOOGA, BOOGA, BOOGA! !<br />
 	    [throw fist over head during abooga and jump in a circle]
 	  </p>
 
 	  <h3>How do you feel?! - Remix</h3>
 	  <p>
-	    HOLD UP WAIT A MINUTE, LET ME PUT SOME BOOTY IN IT.<br />
-	    UGH. SOME BOOTY, UGH UGH SOME BOOTY.<br />
+	    HOLD UP! WAIT A MINUTE! LET ME PUT SOME BOOTY IN IT!<br />
+	    UGH! SOME BOOTY! UGH! UGH! SOME BOOTY!<br />
 	  </p>
 
 	  <h3>How do you feel?! - Red Bull Remix</h3>
 	  <p>
-	    HOLD UP WAIT A MINUTE, LET ME PUT SOME RED BULL IN IT. [make finger horns]<br />
-	    UGH. SOME RED BULL.<br />
-	    RED BULL GIVES YOU WINGS. [flap wings]<br />
+	    HOLD UP! WAIT A MINUTE! LET ME PUT SOME RED BULL IN IT! [make finger horns]<br />
+	    UGH! SOME RED BULL!<br />
+	    RED BULL GIVES YOU WINGS! [flap wings]<br />
 	  </p>
 	</div>
       </div>
