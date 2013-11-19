@@ -25,6 +25,9 @@
 	<a href="/forms/">Forms</a>
       </li>
       <li>
+	<a href="/spirit/">Spirit</a>
+      </li>
+      <li>
 	<a href="/about-us/">About Us</a>
       </li>
     </ul>
