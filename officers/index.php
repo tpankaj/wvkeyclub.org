@@ -45,7 +45,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/zhang-michael.jpg" />
+	      <img src="/officers/images/zhang-michael.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -69,7 +69,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/lang-iris.jpg" />
+	      <img src="/officers/images/lang-iris.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -83,7 +83,7 @@
 	</div>
 	<div class="eight columns">
 	  <p>
-	    Hi! I'm Iris, and I have officially crept from my position as Treasurer to the position of your Vice President for the 2013 - 2014 KC year. How glorious! I've been a dedicated member/officer since freshman year, accumulating 300 hours since. From simple elementary school festivals to California-Nevada-Hawaii's District-wide Convention, my passion to serve not only the community, but you guys as members has only grown&hellip;exponentially. In the past two years, my experience serving on both the Appointed and Executive Board has opened my eyes to the magic that happens behind-the-scenes&mdash;whether it's staying up until 2am to find just one more volunteer opportunity, or communicating with our division-district liaisons to plan the perfect bake-sale, the hard work that's put into Key Club from members &amp; officers alike truly redefines the word "service". Outside of volunteering, I love Photobooth, bananas, and rhythmic gymnastics. I am also a huge advocate of Starbucks' White Chocolate Mocha Frappuccinos, so do me a favor and try one please. Aside from everything, I cannot wait to see our club grow even more this year, and I hope, sometime in the next 12 months, that you will find your passion to serve. :) This is just the beginning.
+	    Hi! I'm Iris, and I have officially crept from my position as Treasurer to the position of your Vice President for the 2013 - 2014 KC year. How glorious! I've been a dedicated member/officer since freshman year, accumulating 300 hours since. From simple elementary school festivals to California-Nevada-Hawaii's District-wide Convention, my passion to serve not only the community, but you guys as members has only grown...exponentially. In the past two years, my experience serving on both the Appointed and Executive Board has opened my eyes to the magic that happens behind-the-scenes&mdash;whether it's staying up until 2am to find just one more volunteer opportunity, or communicating with our division-district liaisons to plan the perfect bake-sale, the hard work that's put into Key Club from members &amp; officers alike truly redefines the word "service". Outside of volunteering, I love Photobooth, bananas, and rhythmic gymnastics. I am also a huge advocate of Starbucks' White Chocolate Mocha Frappuccinos, so do me a favor and try one please. Aside from everything, I cannot wait to see our club grow even more this year, and I hope, sometime in the next 12 months, that you will find your passion to serve. :) This is just the beginning.
 	  </p>
 	</div>
       </div>
@@ -93,7 +93,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/vo-lily.jpg" />
+	      <img src="/officers/images/vo-lily.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -117,7 +117,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/liu-shaoxiong.jpg" />
+	      <img src="/officers/images/liu-shaoxiong.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -147,7 +147,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/chen-alec.jpg" />
+	      <img src="/officers/images/chen-alec.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -177,7 +177,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/almasco-diandra.jpg" />
+	      <img src="/officers/images/almasco-diandra.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -201,7 +201,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/doan-james.jpg" />
+	      <img src="/officers/images/doan-james.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -225,7 +225,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/yang-lucia.jpg" />
+	      <img src="/officers/images/yang-lucia.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -249,7 +249,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/bokhary-luqmaan.jpg" />
+	      <img src="/officers/images/bokhary-luqmaan.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -273,7 +273,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/du-amanda.jpg" />
+	      <img src="/officers/images/du-amanda.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -297,7 +297,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/qi-harrison.jpg" />
+	      <img src="/officers/images/qi-harrison.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -321,7 +321,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/huang-kenneth.jpg" />
+	      <img src="/officers/images/huang-kenneth.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -335,7 +335,7 @@
 	</div>
 	<div class="eight columns">
 	  <p>
-	    Yo dawg, I'm Kenneth Huang, and I heard I needed a biography so I wrote you one. Now I could really be playing League of Legends with the Challenger Tier, Jiali Huang, but I'm writing this fancy biography to give you a brief overview of your 2013-2014 Historian. I'm a descendent from the Huang Dynasty and Jiali Huang was the previous Emperor Historian who is now our 2012-2013 alumni. Jiali has been able to teach me how to use the camera, so hopefully I will be able to put these skills to use at Key Club event. Alright, so I started Key Club around September and I believed that this club was the only way to get quick hours without dying of boredom. Even if some events are lackluster, just being with my friends and having some fun helping the community is enough. I love volunteering and receiving free shirts, free swag bags, and free food. As your historian I will look forward to taking many pictures of all your sexy faces, as long as you peeps don't avoid the camera like certain members D:<. Anyways that wraps up my biography, Challenger tier, here I come! #yoloswag #latenightcrew.
+	    Yo dawg, I'm Kenneth Huang, and I heard I needed a biography so I wrote you one. Now I could really be playing League of Legends with the Challenger Tier, Jiali Huang, but I'm writing this fancy biography to give you a brief overview of your 2013-2014 Historian. I'm a descendent from the Huang Dynasty and Jiali Huang was the previous Emperor Historian who is now our 2012-2013 alumni. Jiali has been able to teach me how to use the camera, so hopefully I will be able to put these skills to use at Key Club event. Alright, so I started Key Club around September and I believed that this club was the only way to get quick hours without dying of boredom. Even if some events are lackluster, just being with my friends and having some fun helping the community is enough. I love volunteering and receiving free shirts, free swag bags, and free food. As your historian I will look forward to taking many pictures of all your sexy faces, as long as you peeps don't avoid the camera like certain members D:&lt;. Anyways that wraps up my biography, Challenger tier, here I come! #yoloswag #latenightcrew.
 	  </p>
 	</div>
       </div>
@@ -345,7 +345,7 @@
 	<div class="four columns">
 	  <div class="row">
 	    <div class="twelve columns" style="text-align:center;">
-	      <img src="/officers/images/cao-tony.jpg" />
+	      <img src="/officers/images/cao-tony.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
