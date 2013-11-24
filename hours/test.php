@@ -1,5 +1,5 @@
 <?php
-   $m = new MongoClient("mongodb://wvkeyclub:d37sredbulls@localhost");
+   $m = new MongoClient("mongodb://localhost");
    $db = $m->wvkeyclub;
    $members_collection = $db->members;
    $events_collection = $db->events;
