@@ -16,6 +16,7 @@
       <div class="row">
 	<div class="twelve columns">
 	  <h1>Spirit</h1>
+	  <h2>Stomping for service</h2>
 	</div>
       </div>
     </header>
@@ -25,6 +26,7 @@
       <div class="row show-for-small">
 	<div class="twelve columns">
 	  <h1>Spirit</h1>
+	  <h2>Stomping for service</h2>
 	</div>
       </div>
 
