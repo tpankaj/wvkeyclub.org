@@ -6,7 +6,7 @@
       "fname" => $_POST["fname"],
       "lname" => $_POST["lname"],
       "email" => $_POST["email"],
-      "graduation_year" => $_POST["graduation_year"]
+      "graduation_year" => $_POST["graduation_year"],
       "position" => $_POST["position"],
       "registered" => filter_var($_POST["registered"], FILTER_VALIDATE_BOOLEAN)
    );
