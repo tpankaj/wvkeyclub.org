@@ -36,20 +36,23 @@
 	</div>
 	<div class="row">
 	  <div class="large-12 columns">
-	    <label>Email address <small>required</small></label>
-	    <input type="email" name="email" required />
+	    <label>Email address</label>
+	    <input type="email" name="email" />
 	  </div>
 	</div>
 	<div class="row">
 	  <div class="large-12 columns">
-	    <label>Category <small>required</small></label>
+	    <label>Graduation year <small>required</small></label>
+	    <input type="number" name="graduation_year" required />
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="large-12 columns">
+	    <label>Position <small>required</small></label>
 	    <select name="category" required>
+	      <option value="member">Member</option>
 	      <option value="executive-board">Executive Board</option>
 	      <option value="appointed-board">Appointed Board</option>
-	      <option value="senior">Senior</option>
-	      <option value="junior">Junior</option>
-	      <option value="sophomore">Sophomore</option>
-	      <option value="freshman">Freshman</option>
 	    </select>
 	  </div>
 	</div>
