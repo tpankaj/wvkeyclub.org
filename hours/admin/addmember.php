@@ -25,23 +25,23 @@
 
       <form method="post" action="/hours/admin/addmember_process.php" data-abide>
 	<div class="row">
-	  <div class="6 columns">
+	  <div class="large-6 columns">
 	    <label>First name <small>required</small></label>
 	    <input type="text" name="fname" required />
 	  </div>
-	  <div class="6 columns">
+	  <div class="large-6 columns">
 	    <label>Last name <small>required</small></label>
 	    <input type="text" name="lname" required />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="12 columns">
+	  <div class="large-12 columns">
 	    <label>Email address <small>required</small></label>
 	    <input type="email" name="email" required />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="12 columns">
+	  <div class="large-12 columns">
 	    <label>Category <small>required</small></label>
 	    <select name="category" required>
 	      <option value="executive-board">Executive Board</option>
@@ -54,7 +54,7 @@
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="2 columns">
+	  <div class="large-2 columns">
 	    <input type="submit" value="Submit" />
 	  </div>
 	</div>
