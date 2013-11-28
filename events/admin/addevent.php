@@ -23,7 +23,7 @@
 
     <div id="mainContent">
 
-      <form method="post" action="/hours/admin/addevent_process.php" data-abide>
+      <form method="post" action="/events/admin/addevent_process.php" data-abide>
 	<div class="row">
 	  <div class="twelve columns">
 	    <label>Event name <small>required</small></label>
