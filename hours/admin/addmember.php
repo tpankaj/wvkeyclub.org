@@ -31,7 +31,7 @@
 	  </div>
 	  <div class="6 columns">
 	    <label>Last name <small>required</small></label>
-	    <input type="text" name="fname" required />
+	    <input type="text" name="lname" required />
 	  </div>
 	</div>
 	<div class="row">

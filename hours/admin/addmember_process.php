@@ -9,7 +9,7 @@
       "category" => $_POST["category"]      
    );
 
-   $db->members>insert($member);
+   $db->members->insert($member);
 
    header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addmember_success");
    ?>
