@@ -6,7 +6,8 @@
       "fname" => $_POST["fname"],
       "lname" => $_POST["lname"],
       "email" => $_POST["email"],
-      "category" => $_POST["category"]      
+      "category" => $_POST["category"],
+      "registered" => filter_var($_POST["registered"], FILTER_VALIDATE_BOOLEAN)
    );
 
    $db->members->insert($member);

@@ -54,6 +54,13 @@
 	  </div>
 	</div>
 	<div class="row">
+	  <div class="large-12 columns">
+	    <label>Registered? <small>required</small></label>
+	    <input type="radio" name="registered" value="true" />Yes<br />
+	    <input type="radio" name="registered" value="false" />No<br />
+	  </div>
+	</div>
+	<div class="row">
 	  <div class="large-2 columns">
 	    <input type="submit" value="Submit" />
 	  </div>
