@@ -29,12 +29,12 @@
 	  <table id="memberlist" class="tablesorter">
 	    <thead>
 	      <tr>
-		<th>First Name</th>
-		<th>Last Name</th>
-		<th>Email Address</th>
-		<th>Graduation Year</th>
-		<th>Position</th>
-		<th>Registered?</th>
+		<th class="header">First Name</th>
+		<th class="header">Last Name</th>
+		<th class="header">Email Address</th>
+		<th class="header">Graduation Year</th>
+		<th class="header">Position</th>
+		<th class="header">Registered?</th>
 	    </thead>
 	    <tbody>
 	      <?php
@@ -87,7 +87,7 @@
     <script>
       $(document).ready(function()
          {
-            $("#memberlist").tablesorter();
+            $("#memberlist").tablesorter({sortList: [[0,0]]});
          }
       );
     </script>
