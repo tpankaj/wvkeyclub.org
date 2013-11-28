@@ -69,6 +69,14 @@
 	  </p>
 	</div>
       </div>
+      <div class="row">
+	<div class="twelve columns">
+	  <h3>Data</h3>
+	  <p>
+	    <a href="/hours/admin/memberlist.php">Member List</a><br />
+	  </p>
+	</div>
+      </div>
 
     </div>
 
