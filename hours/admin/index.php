@@ -32,7 +32,7 @@
 	<div class="twelve columns">
 	  <h3>Actions</h3>
 	  <p>
-	    <a href="/hours/admin/addmember.php">Add Member</a>
+	    <a href="/hours/admin/addmember.php">Add Member</a><br />
 	    <a href="/hours/admin/addeventhours.php">Add Event Hours</a>
 	  </P>
 	</div>

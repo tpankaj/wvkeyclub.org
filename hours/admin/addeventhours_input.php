@@ -47,6 +47,11 @@
 	<?php
 	   }
 	   ?>
+	<div class="row">
+	  <div class="2 columns">
+	    <input type="submit" value="Submit" />
+	  </div>
+	</div>
       </form>
       
     </div>

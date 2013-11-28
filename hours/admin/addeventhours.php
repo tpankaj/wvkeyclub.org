@@ -50,6 +50,11 @@
 	    <input type="integer" name="attendee-count" required />
 	  </div>
 	</div>
+	<div class="row">
+	  <div class="2 columns">
+	    <input type="submit" value="Submit" />
+	  </div>
+	</div>
       </form>
       
     </div>
