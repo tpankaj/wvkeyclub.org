@@ -49,7 +49,7 @@
 	<div class="row">
 	  <div class="large-12 columns">
 	    <label>Position <small>required</small></label>
-	    <select name="category" required>
+	    <select name="position" required>
 	      <option value="member">Member</option>
 	      <option value="executive-board">Executive Board</option>
 	      <option value="appointed-board">Appointed Board</option>
