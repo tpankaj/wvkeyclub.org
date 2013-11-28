@@ -1,6 +1,12 @@
+table.tablesorter th.head {
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
 table.tablesorter thead tr .headerSortUp {
     background-image: url(/img/tablesorter/asc.gif);
 }
+
 table.tablesorter thead tr .headerSortDown {
     background-image: url(/img/tablesorter/desc.gif);
 }
