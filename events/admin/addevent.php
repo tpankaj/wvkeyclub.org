@@ -43,7 +43,7 @@
 	<div class="row">
 	  <div class="twelve columns">
 	    <label>Location <small>required</small></label>
-	    <input type="location" name="location" required />
+	    <input type="text" name="location" required />
 	  </div>
 	</div>
 	<div class="row">
