@@ -15,11 +15,21 @@
       <li>
 	<a href="/officers/">Officers</a>
       </li>
-      <li>
+      <li class="has-dropdown">
 	<a href="/events/">Events</a>
+	<ul class="dropdown">
+	  <li>
+	    <a href="/events/admin/">Admin</a>
+	  </li>
+	</ul>
       </li>
-      <li>
+      <li class="has-dropdown">
 	<a href="/hours/">Hours</a>
+	<ul class="dropdown">
+	  <li>
+	    <a href="/hours/admin/">Admin</a>
+	  </li>
+	</ul>
       </li>
       <li>
 	<a href="/forms/">Forms</a>
