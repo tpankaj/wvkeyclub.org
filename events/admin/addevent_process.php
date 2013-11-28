@@ -9,7 +9,8 @@
       "name" => $_POST["name"],
       "time" => array("start" => $starttime->getTimestamp(), "end" => $endtime->getTimestamp()),
       "location" => $_POST["location"],
-      "description" => $_POST["description"]
+      "description" => $_POST["description"],
+      "hours_entered" => false
    );
 
    $db->events->insert($event);
