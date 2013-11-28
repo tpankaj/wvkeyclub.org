@@ -25,36 +25,36 @@
 
       <form method="post" action="/events/admin/addevent_process.php" data-abide>
 	<div class="row">
-	  <div class="twelve columns">
+	  <div class="large-12 columns">
 	    <label>Event name <small>required</small></label>
 	    <input type="text" name="name" required />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="six columns">
+	  <div class="large-6 columns">
 	    <label>Start time (ex: 2013-11-27T22:22:16-07:00) <small>required</small></label>
 	    <input type="datetime" placeholder="YYYY-MM-DDThh:mm:ssTZD" name="start-time" required />
 	  </div>
-	  <div class="six columns">
+	  <div class="large-6 columns">
 	    <label>End time <small>required</small></label>
 	    <input type="datetime" placeholder="YYYY-MM-DDThh:mm:ssTZD" name="end-time" required />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="twelve columns">
+	  <div class="large-12 columns">
 	    <label>Location <small>required</small></label>
 	    <input type="text" name="location" required />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="twelve columns">
+	  <div class="large-12 columns">
 	    <label>Description <small>required</small></label>
 	    <textarea name="description" required>
 	    </textarea>
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="2 columns">
+	  <div class="large-2 columns">
 	    <input type="submit" value="Submit" />
 	  </div>
 	</div>
