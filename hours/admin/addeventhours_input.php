@@ -24,8 +24,8 @@
     <div id="mainContent">
 
       <form method="post" action="/hours/admin/addeventhours_process.php" data-abide>
-	<input type="hidden" name="event-id" value="<?php echo $_POST[\"event-id\"]; ?>" />
-	<input type="hidden" name="attendee-count" value="<?php echo $_POST[\"attendee-count\"]; ?>" />
+	<input type="hidden" name="event-id" value="<?php echo $_POST["event-id"]; ?>" />
+	<input type="hidden" name="attendee-count" value="<?php echo $_POST["attendee-count"]; ?>" />
 	<?php
 	   for ($int i = 1; $i <= $_POST["attendee-count"]; $i++)
 	   {
