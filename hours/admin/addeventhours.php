@@ -26,7 +26,7 @@
       <form method="post" action="/hours/admin/addeventhours_input.php" data-abide>
 	<div class="row">
 	  <div class="12 columns">
-	    <label>Event <small>required</small>/</label>
+	    <label>Event <small>required</small></label>
 	    <select name="event-id" required>
 	      <?php
 		    $m = new MongoClient("mongodb://localhost");
@@ -47,7 +47,7 @@
 	<div class="row">
 	  <div class="12 columns">
 	    <label>Number of attendees <small>required</small></label>
-	    <input type="integer" name="attendee-count" required />
+	    <input type="text" pattern="integer" name="attendee-count" required />
 	  </div>
 	</div>
 	<div class="row">
