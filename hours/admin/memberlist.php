@@ -87,7 +87,7 @@
     <script>
       $(document).ready(function()
          {
-            $("#memberlist").tablesorter({sortList: [[0,0]]});
+            $("#memberlist").tablesorter({sortList: [[1,0]]});
          }
       );
     </script>
