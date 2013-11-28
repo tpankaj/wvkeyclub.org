@@ -49,7 +49,8 @@
 	<div class="row">
 	  <div class="twelve columns">
 	    <label>Description <small>required</small></label>
-	    <textarea name="description" required />
+	    <textarea name="description" required>
+	    </textarea>
 	  </div>
 	</div>
 	<div class="row">
