@@ -49,8 +49,7 @@
 	<div class="row">
 	  <div class="large-12 columns">
 	    <label>Description</label>
-	    <textarea name="description">
-	    </textarea>
+	    <textarea name="description"></textarea>
 	  </div>
 	</div>
 	<div class="row">
