@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
   <head>
-    <title>Hours - Westview Key Club</title>
+    <title>Hours Admin Panel -  Westview Key Club</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/header.php"); ?>
   </head>
 
@@ -15,7 +15,7 @@
     <header class="hide-for-small">
       <div class="row">
 	<div class="twelve columns">
-	  <h1>Hours</h1>
+	  <h1>Hours Admin Panel</h1>
 	</div>
       </div>
     </header>
@@ -24,15 +24,17 @@
 
       <div class="row show-for-small">
 	<div class="twelve columns">
-	  <h1>Hours</h1>
+	  <h1>Hours Admin Panel</h1>
 	</div>
       </div>
 
       <div class="row">
 	<div class="twelve columns">
+	  <h3>Actions</h3>
 	  <p>
-	  Click <a href="/hours/2013-2014%20Hours.xlsx">here</a> to download the hours spreadsheet.
-	  </p>
+	    <a href="/hours/admin/addmember.php">Add Member</a>
+	    <a href="/hours/admin/addeventhours.php">Add Event Hours</a>
+	  </P>
 	</div>
       </div>
 
