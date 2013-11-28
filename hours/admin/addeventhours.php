@@ -32,7 +32,7 @@
 		    $m = new MongoClient("mongodb://localhost");
 		    $db = $m->wvkeyclub;
 
-	            $results = $db->events->find(array("hours_entered" => array('$eq' => false)));
+	            $results = $db->events->find(array("hours_entered" => false));
 
                     foreach ($results as $event)
                     {
