@@ -28,13 +28,45 @@
 	</div>
       </div>
 
+      <?php
+	 if (isset($_POST["message"]))
+	 {
+	    if ($_POST["message"] == "addmember_success")
+	    {
+	 ?>
+      <div class="row">
+	<div class="twelve columns">
+	  <div data-alert class="alert-box success radius">
+	    Member successfully added!
+	    <a href="#" class="close">&times;</a>
+	  </div>
+	</div>
+      </div>
+      <?php
+	    }
+	    else if ($_POST["message"] == "addeventhours_success")
+	    {
+	 ?>
+      <div class="row">
+	<div class="twelve columns">
+	  <div data-alert class="alert-box success radius">
+	    Hours successfully added!
+	    <a href="#" class="close">&times;</a>
+	  </div>
+	</div>
+      </div>
+      <?php
+	    }
+	 }
+	 ?>
+
       <div class="row">
 	<div class="twelve columns">
 	  <h3>Actions</h3>
 	  <p>
 	    <a href="/hours/admin/addmember.php">Add Member</a><br />
 	    <a href="/hours/admin/addeventhours.php">Add Event Hours</a>
-	  </P>
+	  </p>
 	</div>
       </div>
 
