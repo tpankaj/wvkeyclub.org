@@ -7,6 +7,7 @@
   <head>
     <title>Member List -  Westview Key Club</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/header.php"); ?>
+    <link rel="stylesheet" href="/css/tablesorter.css">
   </head>
 
   <body>
