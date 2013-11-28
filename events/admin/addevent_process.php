@@ -14,5 +14,5 @@
 
    $db->events->insert($event);
 
-   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addevent_success");
+   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/events/admin/index.php?message=addevent_success");
    ?>
