@@ -36,7 +36,7 @@
 	</div>
 	<div class="row">
 	  <div class="12 columns">
-	    <label>Email address</label>
+	    <label>Email address <small>required</small></label>
 	    <input type="email" name="email" required />
 	  </div>
 	</div>

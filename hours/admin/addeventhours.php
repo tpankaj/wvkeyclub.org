@@ -37,7 +37,7 @@
                     foreach ($results as $event)
                     {
 		 ?>
-	      <option value="<?php echo $event[\"_id\"]; ?>"><?php echo $event[\"name\"]; ?></option>
+	      <option value="<?php echo $event["_id"]; ?>"><?php echo $event["name"]; ?></option>
 	      <?php
 		    }
 		 ?>
