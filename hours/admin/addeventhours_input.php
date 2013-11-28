@@ -27,7 +27,7 @@
 	<input type="hidden" name="event-id" value="<?php echo $_POST["event-id"]; ?>" />
 	<input type="hidden" name="attendee-count" value="<?php echo $_POST["attendee-count"]; ?>" />
 	<?php
-	   for ($int i = 1; $i <= $_POST["attendee-count"]; $i++)
+	   for ($i = 1; $i <= $_POST["attendee-count"]; $i++)
 	   {
          ?>
 	<div class="row">
