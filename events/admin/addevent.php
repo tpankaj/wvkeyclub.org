@@ -42,14 +42,14 @@
 	</div>
 	<div class="row">
 	  <div class="large-12 columns">
-	    <label>Location <small>required</small></label>
-	    <input type="text" name="location" required />
+	    <label>Location</label>
+	    <input type="text" name="location" />
 	  </div>
 	</div>
 	<div class="row">
 	  <div class="large-12 columns">
-	    <label>Description <small>required</small></label>
-	    <textarea name="description" required>
+	    <label>Description</label>
+	    <textarea name="description">
 	    </textarea>
 	  </div>
 	</div>
