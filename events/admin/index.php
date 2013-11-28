@@ -29,9 +29,9 @@
       </div>
 
       <?php
-	 if (isset($_POST["message"]))
+	 if (isset($_GET["message"]))
 	 {
-	    if ($_POST["message"] == "addevent_success")
+	    if ($_GET["message"] == "addevent_success")
 	    {
 	 ?>
       <div class="row">

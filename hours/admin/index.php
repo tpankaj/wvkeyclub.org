@@ -29,9 +29,9 @@
       </div>
 
       <?php
-	 if (isset($_POST["message"]))
+	 if (isset($_GET["message"]))
 	 {
-	    if ($_POST["message"] == "addmember_success")
+	    if ($_GET["message"] == "addmember_success")
 	    {
 	 ?>
       <div class="row">
@@ -44,7 +44,7 @@
       </div>
       <?php
 	    }
-	    else if ($_POST["message"] == "addeventhours_success")
+	    else if ($_GET["message"] == "addeventhours_success")
 	    {
 	 ?>
       <div class="row">
