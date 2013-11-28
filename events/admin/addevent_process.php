@@ -7,7 +7,7 @@
 
    $event = array(
       "name" => $_POST["name"],
-      "time" => array("start" => $starttime, "end" => $endtime),
+      "time" => array("start" => $starttime->getTimestamp(), "end" => $endtime->getTimestamp()),
       "location" => $_POST["location"],
       "description" => $_POST["description"]
    );
