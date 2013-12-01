@@ -32,7 +32,7 @@
 	</div>
 	<div class="row">
 	  <div class="large-6 columns">
-	    <label>Start time (ex: 2013-11-27T22:22:16-07:00) <small>required</small></label>
+	    <label>Start time (ex: 2013-11-27T22:22:16-08:00) <small>required</small></label>
 	    <input type="datetime" placeholder="YYYY-MM-DDThh:mm:ssTZD" name="start-time" required />
 	  </div>
 	  <div class="large-6 columns">
