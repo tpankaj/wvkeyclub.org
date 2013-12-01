@@ -77,7 +77,7 @@
 		     }
 		     ?>
 		</td>
-		<td><a href="/events/admin/editevent.php?id=<?php echo $event["_id"]; ?>">Edit</a></td>
+		<td><a href="/events/admin/editevent.php?id=<?php echo $event["_id"]; ?>">Edit</a> <a href="/events/admin/deleteevent_confirm.php?id=<?php echo $event["_id"]; ?>">Delete</a></td>
 	      </tr>
 	      <?php
 		 }
