@@ -40,6 +40,19 @@
       </div>
       <?php
 	    }
+	    else if ($_GET["message"] == "deleteevent_success")
+	    {
+	 ?>
+      <div class="row">
+	<div class="small-12 columns">
+	  <div data-alert class="alert-box success radius">
+	    Event successfully deleted!
+	    <a href="#" class="close">&times;</a>
+	  </div>
+	</div>
+      </div>
+      <?php
+	    }
 	 }
 	 ?>
 
