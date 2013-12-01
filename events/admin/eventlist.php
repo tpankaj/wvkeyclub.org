@@ -25,8 +25,8 @@
     <div id="mainContent">
 
       <div class="row">
-	<div class="large-12 columns">
-	  <table id="memberlist" class="tablesorter">
+	<div class="small-12 columns">
+	  <table id="memberlist" class="tablesorter" style="margin-left:auto; margin-right:auto;">
 	    <thead>
 	      <tr>
 		<th class="header">Name</th>
