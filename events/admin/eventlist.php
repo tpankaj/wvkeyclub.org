@@ -96,7 +96,7 @@
 		     }
 		     ?>
 		</td>
-		<td><a href="/events/admin/editevent.php?id=<?php echo $event["_id"]; ?>">Edit</a> <a href="#" data-reveal-id="delete-modal" data-reveal-ajax="http://<?php echo $_SERVER["SERVER_NAME"]; ?>/events/admin/deleteevent_confirm.php?id=<?php echo $event["_id"]; ?>">Delete</a></td>
+		<td><a href="/events/admin/editevent.php?id=<?php echo $event["_id"]; ?>">Edit</a> <a href="#" data-reveal-id="delete-modal" data-reveal-ajax="http://<?php echo $_SERVER["SERVER_NAME"]; ?>/events/admin/deleteevent_confirm.php?id=<?php echo $event["_id"]; ?>&name=<?php echo urlencode($event["name"]); ?>">Delete</a></td>
 	      </tr>
 	      <?php
 		 }
