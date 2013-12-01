@@ -11,4 +11,4 @@
    }
 
    header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addeventhours_success");
-   ?>
+  ?>
