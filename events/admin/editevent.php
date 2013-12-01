@@ -37,7 +37,7 @@
          $endtime->setTimestamp(intval($event["time"]["end"]));
       ?>
       <form method="post" action="/events/admin/editevent_process.php" data-abide>
-	<input type="hidden" name="event_id" value="<?php echo $_GET["id"]; ?>" />
+	<input type="hidden" name="event-id" value="<?php echo $_GET["id"]; ?>" />
 	<div class="row">
 	  <div class="small-12 columns">
 	    <label>Event name <small>required</small></label>
@@ -57,7 +57,7 @@
 	<div class="row">
 	  <div class="small-12 columns">
 	    <label>Location</label>
-	    <input type="text" name="location" value="$<?php echo $event["location"]; ?>" />
+	    <input type="text" name="location" value="<?php echo $event["location"]; ?>" />
 	  </div>
 	</div>
 	<div class="row">
