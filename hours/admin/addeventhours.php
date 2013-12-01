@@ -14,7 +14,7 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Hours Admin Panel</h1>
 	  <h2>Add Event Hours</h2>
 	</div>
@@ -25,7 +25,7 @@
 
       <form method="post" action="/hours/admin/addeventhours_input.php" data-abide>
 	<div class="row">
-	  <div class="large-12 columns">
+	  <div class="small-12 columns">
 	    <label>Event <small>required</small></label>
 	    <select name="event-id" required>
 	      <?php
@@ -45,13 +45,13 @@
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="large-12 columns">
+	  <div class="small-12 columns">
 	    <label>Number of attendees <small>required</small></label>
 	    <input type="text" pattern="integer" name="attendee-count" required />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="large-2 columns">
+	  <div class="small-2 columns">
 	    <input type="submit" value="Submit" />
 	  </div>
 	</div>

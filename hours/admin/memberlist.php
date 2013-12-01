@@ -15,7 +15,7 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Hours Admin Panel</h1>
 	  <h2>Member List</h2>
 	</div>
@@ -25,8 +25,8 @@
     <div id="mainContent">
 
       <div class="row">
-	<div class="large-12 columns">
-	  <table id="memberlist" class="tablesorter">
+	<div class="small-12 columns">
+	  <table id="memberlist" class="tablesorter" style="margin-left:auto; margin-right:auto;">
 	    <thead>
 	      <tr>
 		<th class="header">First Name</th>

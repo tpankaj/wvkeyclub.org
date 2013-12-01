@@ -15,7 +15,7 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Events Admin Panel</h1>
 	  <h2>Event List</h2>
 	</div>

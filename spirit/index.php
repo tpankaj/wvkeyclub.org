@@ -14,7 +14,7 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Spirit</h1>
 	  <h2>Stomping for service</h2>
 	</div>
@@ -24,14 +24,14 @@
     <div id="mainContent">
 
       <div class="row show-for-small">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Spirit</h1>
 	  <h2>Stomping for service</h2>
 	</div>
       </div>
 
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h3>How do you feel?!</h3>
 	  <p>
 	    WE FEEL GOOD! OH WE FEEL SO GOOD! UGH! [pelvic thrust]<br />

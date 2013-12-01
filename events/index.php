@@ -14,7 +14,7 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Events</h1>
 	</div>
       </div>
@@ -23,13 +23,13 @@
     <div id="mainContent">
 
       <div class="row show-for-small">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Events</h1>
 	</div>
       </div>
 
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <iframe src="https://www.google.com/calendar/embed?src=d51haimqra31ucq9tkabrng9us%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 	</div>
       </div>

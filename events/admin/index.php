@@ -14,7 +14,7 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Events Admin Panel</h1>
 	</div>
       </div>
@@ -23,7 +23,7 @@
     <div id="mainContent">
 
       <div class="row show-for-small">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Events Admin Panel</h1>
 	</div>
       </div>
@@ -35,7 +35,7 @@
 	    {
 	 ?>
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <div data-alert class="alert-box success radius">
 	    Event successfully added!
 	    <a href="#" class="close">&times;</a>
@@ -48,7 +48,7 @@
 	 ?>
 
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h3>Actions</h3>
 	  <p>
 	    <a href="/events/admin/addevent.php">Add Event</a>

@@ -14,7 +14,7 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Hours</h1>
 	</div>
       </div>
@@ -23,13 +23,13 @@
     <div id="mainContent">
 
       <div class="row show-for-small">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Hours</h1>
 	</div>
       </div>
 
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <p>
 	  Click <a href="/hours/2013-2014%20Hours.xlsx">here</a> to download the hours spreadsheet.
 	  </p>

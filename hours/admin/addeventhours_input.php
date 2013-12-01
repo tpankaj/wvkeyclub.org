@@ -14,7 +14,7 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Hours Admin Panel</h1>
 	  <h2>Add Event Hours</h2>
 	</div>
@@ -31,15 +31,15 @@
 	   {
          ?>
 	<div class="row">
-	  <div class="5 columns">
+	  <div class="small-5 columns">
 	    <label>Member first name <small>required</small></label>
 	    <input type="text" name="member-fname-<?php echo $i; ?>" required />
 	  </div>
-	  <div class="5 columns">
+	  <div class="small-5 columns">
 	    <label>Member last name <small>required</small></label>	    
 	    <input type="text" name="member-lname-<?php echo $i; ?>" required />
 	  </div>
-	  <div class="2 columns">
+	  <div class="small-2 columns">
 	    <label>Hours <small>required</small></label>
 	    <input type="number" name="member-hours-<?php echo $i; ?>" required />
 	  </div>
@@ -48,7 +48,7 @@
 	   }
 	   ?>
 	<div class="row">
-	  <div class="2 columns">
+	  <div class="small-2 columns">
 	    <input type="submit" value="Submit" />
 	  </div>
 	</div>

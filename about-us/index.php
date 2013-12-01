@@ -14,7 +14,7 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>About Us</h1>
 	</div>
       </div>
@@ -23,13 +23,13 @@
     <div id="mainContent">
 
       <div class="row show-for-small">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>About Us</h1>
 	</div>
       </div>
 
       <div class="row">
-	<div class="nine columns">
+	<div class="small-9 columns">
 	  <h3>What Is Key Club?</h3>
 	  <p>
 	    Key Club International is the largest high school organization devoted to providing service to communities. Westview Key Club is the largest community service club on Westview campus. Worldwide, there are 250,000 members, 5,000 clubs, and participation in 31 countries. The first Key Club originated in May 1925 at Sacramento High School in California. This club was sponsored by the Kiwanis Club of Sacramento and this first club's original idea was to create a vocational guidance program to stop the problems of fraternities. From this beginning group came the idea of a service organization aimed at bettering the home.
@@ -43,7 +43,7 @@
 	    and combat all forces which tend to undermine these institutions.
 	  </p>
 	</div>
-	<div class="three columns">
+	<div class="small-3 columns">
 	  <h4> More Information</h4>
 	  <p>
 	    What to learn more? Check out these links:

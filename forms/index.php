@@ -14,7 +14,7 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Forms</h1>
 	</div>
       </div>
@@ -23,13 +23,13 @@
     <div id="mainContent">
 
       <div class="row show-for-small">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Forms</h1>
 	</div>
       </div>
 
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <p>
 	    To become a registered member, turn in all of these forms along with the $13 dues by November 21, 2013. After this date, the dues will go up to $15. Checks should be made payable to Westview Key Club.
 	  </p>

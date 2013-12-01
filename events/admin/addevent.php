@@ -14,7 +14,7 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Events Admin Panel</h1>
 	  <h2>Add Event</h2>
 	</div>
@@ -25,35 +25,35 @@
 
       <form method="post" action="/events/admin/addevent_process.php" data-abide>
 	<div class="row">
-	  <div class="large-12 columns">
+	  <div class="small-12 columns">
 	    <label>Event name <small>required</small></label>
 	    <input type="text" name="name" required />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="large-6 columns">
+	  <div class="small-6 columns">
 	    <label>Start time (ex: 2013-11-27T22:22:16-08:00) <small>required</small></label>
 	    <input type="datetime" placeholder="YYYY-MM-DDThh:mm:ssTZD" name="start-time" required />
 	  </div>
-	  <div class="large-6 columns">
+	  <div class="small-6 columns">
 	    <label>End time <small>required</small></label>
 	    <input type="datetime" placeholder="YYYY-MM-DDThh:mm:ssTZD" name="end-time" required />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="large-12 columns">
+	  <div class="small-12 columns">
 	    <label>Location</label>
 	    <input type="text" name="location" />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="large-12 columns">
+	  <div class="small-12 columns">
 	    <label>Description</label>
 	    <textarea name="description"></textarea>
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="large-2 columns">
+	  <div class="small-2 columns">
 	    <input type="submit" value="Submit" />
 	  </div>
 	</div>

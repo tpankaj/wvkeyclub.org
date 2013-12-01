@@ -13,7 +13,7 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/navbar.php"); ?>
     <div id="mainContent">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h3>Announcements</h3>
 	  <?php
 	     date_default_timezone_set("America/Los_Angeles");

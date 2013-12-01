@@ -14,7 +14,7 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="twelve columns">
+	<div class="small-12 columns">
 	  <h1>Hours Admin Panel</h1>
 	  <h2>Add Member</h2>
 	</div>
@@ -25,29 +25,29 @@
 
       <form method="post" action="/hours/admin/addmember_process.php" data-abide>
 	<div class="row">
-	  <div class="large-6 columns">
+	  <div class="small-6 columns">
 	    <label>First name <small>required</small></label>
 	    <input type="text" name="fname" required />
 	  </div>
-	  <div class="large-6 columns">
+	  <div class="small-6 columns">
 	    <label>Last name <small>required</small></label>
 	    <input type="text" name="lname" required />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="large-12 columns">
+	  <div class="small-12 columns">
 	    <label>Email address</label>
 	    <input type="email" name="email" />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="large-12 columns">
+	  <div class="small-12 columns">
 	    <label>Graduation year <small>required</small></label>
 	    <input type="number" name="graduation_year" required />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="large-12 columns">
+	  <div class="small-12 columns">
 	    <label>Position <small>required</small></label>
 	    <select name="position" required>
 	      <option value="member">Member</option>
@@ -57,14 +57,14 @@
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="large-12 columns">
+	  <div class="small-12 columns">
 	    <label>Registered? <small>required</small></label>
 	    <input type="radio" name="registered" value="true" />Yes<br />
 	    <input type="radio" name="registered" value="false" />No<br />
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="large-2 columns">
+	  <div class="small-2 columns">
 	    <input type="submit" value="Submit" />
 	  </div>
 	</div>
