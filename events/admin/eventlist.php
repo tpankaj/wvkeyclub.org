@@ -24,6 +24,25 @@
 
     <div id="mainContent">
 
+      <?php
+	 if (isset($_GET["message"]))
+	 {
+	    if ($_GET["message"] == "editevent_success")
+	    {
+	 ?>
+      <div class="row">
+	<div class="small-12 columns">
+	  <div data-alert class="alert-box success radius">
+	    Event successfully edited!
+	    <a href="#" class="close">&times;</a>
+	  </div>
+	</div>
+      </div>
+      <?php
+	    }
+	 }
+	 ?>
+
       <div class="row">
 	<div class="small-12 columns">
 	  <table id="memberlist" class="tablesorter" style="margin-left:auto; margin-right:auto;">
