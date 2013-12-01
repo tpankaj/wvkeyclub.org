@@ -15,5 +15,5 @@
 
    $db->events->update(array("_id" => $event_id), array('$set' => $event));
 
-   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/events/admin/eventlist.php?message=editevent_success");
+   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/events/admin/eventslist.php?message=editevent_success");
    ?>

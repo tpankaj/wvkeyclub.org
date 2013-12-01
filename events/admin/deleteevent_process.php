@@ -6,5 +6,5 @@
 
    $db->events->remove(array("_id" => $event_id));
 
-   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/events/admin/eventlist.php?message=deleteevent_success");
+   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/events/admin/eventslist.php?message=deleteevent_success");
    ?>

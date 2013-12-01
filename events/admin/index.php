@@ -55,6 +55,14 @@
 	  </p>
 	</div>
       </div>
+      <div class="row">
+	<div class="small-12 columns">
+	  <h3>Data</h3>
+	  <p>
+	    <a href="/events/admin/eventslist.php">Events List</a>
+	  </p>
+	</div>
+      </div>
 
     </div>
 

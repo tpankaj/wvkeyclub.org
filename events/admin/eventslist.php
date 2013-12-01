@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
   <head>
-    <title>Event List -  Westview Key Club</title>
+    <title>Events List -  Westview Key Club</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/header.php"); ?>
     <link rel="stylesheet" href="/css/tablesorter.css">
   </head>
@@ -17,7 +17,7 @@
       <div class="row">
 	<div class="small-12 columns">
 	  <h1>Events Admin Panel</h1>
-	  <h2>Event List</h2>
+	  <h2>Events List</h2>
 	</div>
       </div>
     </header>
