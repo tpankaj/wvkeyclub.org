@@ -94,7 +94,7 @@
     <script>
       $(document).ready(function()
          {
-            $("#memberlist").tablesorter({sortList: [[1,0]]});
+            $("#memberlist").tablesorter({sortList: [[1,1]]});
          }
       );
     </script>
