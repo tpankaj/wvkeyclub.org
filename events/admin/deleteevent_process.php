@@ -2,7 +2,7 @@
    $m = new MongoClient("mongodb://localhost");
    $db = $m->wvkeyclub;
 
-   $event_id = new MongoId($_POST["event-id"]);
+   $event_id = new MongoId($_GET["id"]);
 
    $db->events->remove(array("_id" => $event_id));
 
