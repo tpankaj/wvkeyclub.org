@@ -49,13 +49,15 @@
 		<td><?php echo $event["name"]; ?></td>
 		<td>
 		  <?php
-		     $starttime = new DateTime($event["time"]["start"]);
+		     $starttime = new DateTime();
+		     $starttime->setTimestamp(intval($event["time"]["start"]));
 		     echo $starttime->format(DateTime::RFC1123);
 		     ?>
 		</td>
 		<td>
 		  <?php
-		     $endtime = new DateTime($event["time"]["end"]);
+		     $endtime = new DateTime();
+		     $endtime->setTimestamp(intval($event["time"]["end"]));
 		     echo $endtime->format(DateTime::RFC1123);
 		     ?>
 		</td>
