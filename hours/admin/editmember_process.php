@@ -2,7 +2,7 @@
    $m = new MongoClient("mongodb://localhost");
    $db = $m->wvkeyclub;
 
-   $member_id = new MongoId($_POST["event-id"]);
+   $member_id = new MongoId($_POST["member-id"]);
 
    $member = array(
       "fname" => $_POST["fname"],
