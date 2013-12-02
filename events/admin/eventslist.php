@@ -58,7 +58,7 @@
 
       <div class="row">
 	<div class="small-12 columns">
-	  <table id="memberlist" class="tablesorter" style="margin-left:auto; margin-right:auto;">
+	  <table id="eventslist" class="tablesorter" style="margin-left:auto; margin-right:auto;">
 	    <thead>
 	      <tr>
 		<th class="header">Name</th>
@@ -129,7 +129,7 @@
     <script>
       $(document).ready(function()
          {
-            $("#memberlist").tablesorter({sortList: [[1,1]]});
+            $("#eventslist").tablesorter({sortList: [[1,1]]});
          }
       );
     </script>

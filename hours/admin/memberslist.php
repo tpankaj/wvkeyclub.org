@@ -91,7 +91,7 @@
 		        echo "No";
 		     ?>
 		</td>
-		<td><a href="/hours/admin/editmember.php?id=<?php echo $member["_id"]; ?>">Edit</a></td>
+		<td><a href="/hours/admin/editmember.php?id=<?php echo $member["_id"]; ?>">Edit</a> <a href="#" data-reveal-id="delete-modal" data-reveal-ajax="http://<?php echo $_SERVER["SERVER_NAME"]; ?>/hours/admin/deletemember_confirm.php?id=<?php echo $member["_id"]; ?>&fname=<?php echo urlencode($member["fname"]); ?>&lname=<?php echo urlencode($member["lname"]); ?>">Delete</a></td>
 	      </tr>
 	      <?php
 		 }
@@ -101,6 +101,9 @@
 	</div>
       </div>
       
+    </div>
+
+    <div id="delete-modal" class="reveal-modal" data-reveal>
     </div>
 
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/footer.php"); ?>
