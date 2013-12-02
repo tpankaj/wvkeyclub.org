@@ -24,6 +24,25 @@
 
     <div id="mainContent">
 
+      <?php
+	 if (isset($_GET["message"]))
+	 {
+	    if ($_GET["message"] == "editmember_success")
+	    {
+	 ?>
+      <div class="row">
+	<div class="small-12 columns">
+	  <div data-alert class="alert-box success radius">
+	    Member successfully edited!
+	    <a href="#" class="close">&times;</a>
+	  </div>
+	</div>
+      </div>
+      <?php
+	    }
+	 }
+	 ?>
+
       <div class="row">
 	<div class="small-12 columns">
 	  <table id="memberslist" class="tablesorter" style="margin-left:auto; margin-right:auto;">
@@ -35,6 +54,7 @@
 		<th class="header">Graduation Year</th>
 		<th class="header">Position</th>
 		<th class="header">Registered?</th>
+		<th class="header">Actions</th>
 	    </thead>
 	    <tbody>
 	      <?php
@@ -71,6 +91,7 @@
 		        echo "No";
 		     ?>
 		</td>
+		<td><a href="/hours/admin/editmember.php?id=<?php echo $member["_id"]; ?>">Edit</a></td>
 	      </tr>
 	      <?php
 		 }
