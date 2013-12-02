@@ -58,7 +58,7 @@
 	  <div class="small-12 columns">
 	    <label>Position <small>required</small></label>
 	    <select name="position" required>
-	      <option value="member "<?php if ($member["position"] == "member") echo "selected";?>>Member</option>
+	      <option value="member" <?php if ($member["position"] == "member") echo "selected";?>>Member</option>
 	      <option value="executive-board" <?php if ($member["position"] == "executive-board") echo "selected"; ?>>Executive Board</option>
 	      <option value="appointed-board" <?php if ($member["position"] == "appointed-board") echo "selected"; ?>>Appointed Board</option>
 	    </select>
