@@ -6,5 +6,5 @@
 
    $db->members->remove(array("_id" => $member_id));
 
-   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/events/admin/memberslist.php?message=deletemember_success");
+   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/memberslist.php?message=deletemember_success");
    ?>
