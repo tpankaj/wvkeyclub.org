@@ -73,7 +73,7 @@
 	<div class="small-12 columns">
 	  <h3>Data</h3>
 	  <p>
-	    <a href="/hours/admin/memberlist.php">Member List</a><br />
+	    <a href="/hours/admin/memberslist.php">Members List</a><br />
 	  </p>
 	</div>
       </div>

@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
   <head>
-    <title>Member List -  Westview Key Club</title>
+    <title>Members List -  Westview Key Club</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/header.php"); ?>
     <link rel="stylesheet" href="/css/tablesorter.css">
   </head>
@@ -17,7 +17,7 @@
       <div class="row">
 	<div class="small-12 columns">
 	  <h1>Hours Admin Panel</h1>
-	  <h2>Member List</h2>
+	  <h2>Members List</h2>
 	</div>
       </div>
     </header>
@@ -26,7 +26,7 @@
 
       <div class="row">
 	<div class="small-12 columns">
-	  <table id="memberlist" class="tablesorter" style="margin-left:auto; margin-right:auto;">
+	  <table id="memberslist" class="tablesorter" style="margin-left:auto; margin-right:auto;">
 	    <thead>
 	      <tr>
 		<th class="header">First Name</th>
@@ -87,7 +87,7 @@
     <script>
       $(document).ready(function()
          {
-            $("#memberlist").tablesorter({sortList: [[3,0],[1,0]]});
+            $("#memberslist").tablesorter({sortList: [[3,0],[1,0]]});
          }
       );
     </script>
