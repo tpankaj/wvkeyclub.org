@@ -44,12 +44,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/zhang-michael.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:wvkeyclub@gmail.com">Michael Zhang</a><br />
 		President
@@ -68,12 +68,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/lang-iris.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:whyisirislang@gmail.com">Iris Lang</a><br />
 		Vice President
@@ -92,12 +92,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/vo-lily.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:lilyhnvo@gmail.com">Lily Vo</a><br />
 		Secretary
@@ -116,12 +116,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/liu-shaoxiong.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:shaoxiongliu2012@gmail.com">Shaoxiong Liu</a><br />
 		Treasurer
@@ -146,12 +146,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/chen-alec.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:alec150@gmail.com">Alec Chen</a><br />
 		Bulletin Editor
@@ -176,12 +176,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/almasco-diandra.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:diandra.almasco@gmail.com">Diandra Almasco</a><br />
 		Interclub Commissioner
@@ -200,12 +200,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/doan-james.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:jamesmdoan@gmail.com">James Doan</a><br />
 		Assistant Treasurer
@@ -224,12 +224,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/yang-lucia.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:greymorningsly@gmail.com">Lucia Yang</a><br />
 		Assistant Secretary
@@ -248,12 +248,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/bokhary-luqmaan.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:luqmaan.bokhary@gmail.com">Luqmaan Bokhary</a><br />
 		Freshman Director
@@ -272,12 +272,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/du-amanda.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:amandapandadu@gmail.com">Amanda Du</a><br />
 		Sophomore Director
@@ -296,12 +296,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/qi-harrison.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:harrison.qi@gmail.com">Harrison Qi</a><br />
 		Senior Director
@@ -320,12 +320,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/huang-kenneth.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:huangkenneth71@gmail.com">Kenneth Huang</a><br />
 		Historian
@@ -344,12 +344,12 @@
       <div class="row">
 	<div class="four columns">
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <img src="/officers/images/cao-tony.jpg" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
-	    <div class="twelve columns" style="text-align:center;">
+	    <div class="twelve columns">
 	      <h4>
 		<a href="mailto:tonyisacow@aim.com">Tony Cao</a><br />
 		Project Coordinator
