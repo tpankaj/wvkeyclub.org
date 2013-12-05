@@ -7,6 +7,12 @@
   <head>
     <title>Officers - Westview Key Club</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/header.php"); ?>
+    <style>
+      .officer
+      {
+         text-align:center;
+      }
+    </style>
   </head>
 
   <body>
@@ -42,7 +48,7 @@
 
       <!-- Michael Zhang, President -->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/zhang-michael.jpg" alt="" />
@@ -66,7 +72,7 @@
 
       <!-- Iris Lang, Vice President -->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/lang-iris.jpg" alt="" />
@@ -90,7 +96,7 @@
 
       <!-- Lily Vo, Secretary -->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/vo-lily.jpg" alt="" />
@@ -114,7 +120,7 @@
 
       <!-- Shaoxiong Liu, Treasurer-->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/liu-shaoxiong.jpg" alt="" />
@@ -144,7 +150,7 @@
 
       <!-- Alec Chen, Bulletin Editor -->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/chen-alec.jpg" alt="" />
@@ -174,7 +180,7 @@
 
       <!-- Diandra Almasco, Interclub Commissioner -->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/almasco-diandra.jpg" alt="" />
@@ -198,7 +204,7 @@
 
       <!-- James Doan, Assistant Treasurer -->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/doan-james.jpg" alt="" />
@@ -222,7 +228,7 @@
 
       <!-- Lucia Yang, Assistant Secretary -->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/yang-lucia.jpg" alt="" />
@@ -246,7 +252,7 @@
 
       <!-- Luqmaan Bokhary, Freshman Director -->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/bokhary-luqmaan.jpg" alt="" />
@@ -270,7 +276,7 @@
 
       <!-- Amanda Du, Sophomore Director -->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/du-amanda.jpg" alt="" />
@@ -294,7 +300,7 @@
 
       <!-- Harrison Qi, Senior Director -->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/qi-harrison.jpg" alt="" />
@@ -318,7 +324,7 @@
 
       <!-- Kenneth Huang, Historian -->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/huang-kenneth.jpg" alt="" />
@@ -342,7 +348,7 @@
 
       <!-- Tony Cao, Project Coordinator -->
       <div class="row">
-	<div class="four columns">
+	<div class="four columns officer">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/cao-tony.jpg" alt="" />
