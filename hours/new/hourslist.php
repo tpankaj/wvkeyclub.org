@@ -105,7 +105,7 @@
     <script>
       $(document).ready(function()
          {
-            $("hourslist").tablesorter({sortList: [[0,0]]});
+            $("#hourslist").tablesorter({sortList: [[0,0]]});
          }
       );
     </script>
