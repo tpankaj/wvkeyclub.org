@@ -37,7 +37,7 @@
 	    </thead>
 	    <tbody>
 	      <?php
-		 require_once($_SERVER["DOCUMENT_ROOT"] . "/lib/hours.php"); ?>
+		 require_once($_SERVER["DOCUMENT_ROOT"] . "/lib/hours.php");
 		 $m = new MongoClient("mongodb://localhost");
 		 $db = $m->wvkeyclub;
 
@@ -78,6 +78,9 @@
 		     ?>
 		</td>
 	      </tr>
+	      <?php
+		 }
+		 ?>
 	    </tbody>
 	  </table>
 	</div>
