@@ -37,16 +37,7 @@
 	    </thead>
 	    <tbody>
 	      <?php
-		 function sum_hours($hours)
-		 {
-		    $sum = 0;
-		    foreach ($hours as $event)
-		    {
-		       $sum += $event["hours"];
-		    }
-		    return $sum;
-		 }
-
+		 require_once($_SERVER["DOCUMENT_ROOT"] . "/lib/hours.php"); ?>
 		 $m = new MongoClient("mongodb://localhost");
 		 $db = $m->wvkeyclub;
 
