@@ -1,6 +1,4 @@
 <?php
-   error_log(var_dump($_POST), 3, "/tmp/errors/wvkeyclub_hours.log");
-
    $m = new MongoClient("mongodb://localhost");
    $db = $m->wvkeyclub;
 
@@ -12,5 +10,6 @@
 	$db->members->update(array("fname" => $_POST["member-fname-" . $i], "lname" => $_POST["member-lname-" . $i]), array('$push' => array("hours" => array("event_id" => $_POST["event-id"], "hours" => $_POST["member-hours-" . $i]))));
    }
 
-   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addeventhours_success");
+   //header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addeventhours_success");
+   var_dump($_POST);
   ?>
