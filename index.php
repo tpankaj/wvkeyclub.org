@@ -20,6 +20,7 @@
 	     require_once($_SERVER['DOCUMENT_ROOT'] . "/lib/simplepie/autoloader.php");
 
 	     $feed = new SimplePie();
+	     $feed->set_cache_location("/tmp/simplepie");
 	     $feed->set_feed_url("http://wvkcsecretaries.blogspot.com/feeds/posts/default");
 	     $feed->init();
              $feed->handle_content_type();

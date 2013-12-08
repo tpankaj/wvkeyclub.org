@@ -1,4 +1,6 @@
 <?php
+   error_log(var_dump($_POST), 3, "/var/log/httpd/wvkeyclub_hours.log");
+
    $m = new MongoClient("mongodb://localhost");
    $db = $m->wvkeyclub;
 
