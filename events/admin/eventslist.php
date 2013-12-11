@@ -83,14 +83,14 @@
 		  <?php
 		     $starttime = new DateTime();
 		     $starttime->setTimestamp(intval($event["time"]["start"]));
-		     echo $starttime->format(DateTime::RFC1123);
+		     echo $starttime->format(DateTime::W3C);
 		     ?>
 		</td>
 		<td>
 		  <?php
 		     $endtime = new DateTime();
 		     $endtime->setTimestamp(intval($event["time"]["end"]));
-		     echo $endtime->format(DateTime::RFC1123);
+		     echo $endtime->format(DateTime::W3C);
 		     ?>
 		</td>
 		<td>

@@ -78,14 +78,14 @@
 		  <?php
 		     $starttime = new DateTime();
 		     $starttime->setTimestamp(intval($event["time"]["start"]));
-		     echo $starttime->format("j F Y g:ia");
+		     echo $starttime->format(DateTime::W3C);
 		     ?>
 		</td>
 		<td>
 		  <?php
 		     $endtime = new DateTime();
 		     $endtime->setTimestamp(intval($event["time"]["end"]));
-		     echo $endtime->format("j F Y g:ia");
+		     echo $endtime->format(DateTime::W3C);
 		     ?>
 		</td>
 		<td><?php echo $event_hours["hours"]; ?></td>
