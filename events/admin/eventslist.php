@@ -72,7 +72,7 @@
 		 $m = new MongoClient("mongodb://localhost");
 		 $db = $m->wvkeyclub;
 
-	         $results = $db->events->find();
+	         $results = $db->events->find()->sort(array(("time.start" => 1));
 
                  foreach ($results as $event)
                  {
