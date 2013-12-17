@@ -58,7 +58,12 @@
 	   ?>
 
 	<?php
-	   for (; $i <= (count($attendees) + intval($_POST["attendees-to-add"])); $i++)
+	   if (! isset($_POST["attendees-to-add"]))
+	      $attendees_to_add = 0;
+	   else
+	      $attendees_to_add = intval($_POST["attendees-to-add"]);
+	   $initial_attendee_count = $i;
+	   for (; $i <= ($initial_attendee_count + $attendees_to_add); $i++)
 	   {
          ?>
 	<div class="row">
