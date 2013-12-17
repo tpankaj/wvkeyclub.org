@@ -13,11 +13,11 @@
 
    if ($db->members->find(array("fname" => $_POST["fname"], "lname" => $_POST["lname"]))->count() == 0)
    {
-      header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addmember_failure_duplicate");
+      $db->members->insert($member);
+      header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addmember_success");
    }
    else
    {
-      $db->members->insert($member);
-      header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addmember_success");
+      header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addmember_failure_duplicate");
    }
    ?>
