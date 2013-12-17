@@ -63,7 +63,7 @@
 	   else
 	      $attendees_to_add = intval($_POST["attendees-to-add"]);
 	   $initial_attendee_count = $i;
-	   for (; $i <= ($initial_attendee_count + $attendees_to_add); $i++)
+	   for (; $i < ($initial_attendee_count + $attendees_to_add); $i++)
 	   {
          ?>
 	<div class="row">
