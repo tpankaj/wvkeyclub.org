@@ -65,6 +65,7 @@
 		<th class="header">Start Time</th>
 		<th class="header">End Time</th>
 		<th class="header">Chair</th>
+		<th class="header">Hours Entered?</th>
 		<th class="header">Actions</th>
 	    </thead>
 	    <tbody>
@@ -107,6 +108,14 @@
 		     {
 		        echo "None";
 		     }
+		     ?>
+		</td>
+		<td>
+		  <?php
+		     if ($event["hours_entered"])
+		        echo "Yes";
+		     else
+		        echo "No";
 		     ?>
 		</td>
 		<td><a href="/events/admin/editevent.php?id=<?php echo $event["_id"]; ?>">Edit</a> <a href="#" data-reveal-id="delete-modal" data-reveal-ajax="http://<?php echo $_SERVER["SERVER_NAME"]; ?>/events/admin/deleteevent_confirm.php?id=<?php echo $event["_id"]; ?>&name=<?php echo urlencode($event["name"]); ?>">Delete</a></td>
