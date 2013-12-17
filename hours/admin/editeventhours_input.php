@@ -35,24 +35,25 @@
 
            $attendees = $db->members->find(array("hours" => array('$elemMatch' => array("event_id" => $_POST["event-id"]))));
            $i = 1;
-           for ($i = 1; $i <= count($attendees); $i++)
+           foreach ($attendees as $attendee)
            {
           ?>
 	<div class="row">
 	  <div class="small-5 columns">
 	    <label>Member first name <small>required</small></label>
-	    <input type="text" name="member-fname-<?php echo $i; ?>" value="<?php echo $attendees[$i - 1]["fname"]; ?>" required />
+	    <input type="text" name="member-fname-<?php echo $i; ?>" value="<?php echo $attendee["fname"]; ?>" required />
 	  </div>
 	  <div class="small-5 columns">
 	    <label>Member last name <small>required</small></label>	    
-	    <input type="text" name="member-lname-<?php echo $i; ?>" value="<?php echo $attendees[$i - 1]["lname"]; ?>" required />
+	    <input type="text" name="member-lname-<?php echo $i; ?>" value="<?php echo $attendee["lname"]; ?>" required />
 	  </div>
 	  <div class="small-2 columns">
 	    <label>Hours <small>required</small></label>
-	    <input type="number" name="member-hours-<?php echo $i; ?>" value="<?php echo $attendees[$i - 1]["hours"]; ?>" required />
+	    <input type="number" name="member-hours-<?php echo $i; ?>" value="<?php echo $attendee["hours"]; ?>" required />
 	  </div>
 	</div>
 	<?php
+	   $i++;
 	   }
 	   ?>
 
