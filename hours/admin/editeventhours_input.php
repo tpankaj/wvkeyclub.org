@@ -35,7 +35,7 @@
 
            $attendees = $db->members->find(array("hours" => array('$elemMatch' => array("event_id" => $_POST["event-id"]))));
            $i = 1;
-           foreach ($i = 1; $i <= count($attendees); $i++)
+           for ($i = 1; $i <= count($attendees); $i++)
            {
           ?>
 	<div class="row">
