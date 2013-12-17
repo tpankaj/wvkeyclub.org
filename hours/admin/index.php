@@ -7,6 +7,14 @@
   <head>
     <title>Hours Admin Panel -  Westview Key Club</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/header.php"); ?>
+    <style>
+      .alert-box.failure
+      {
+         background-color: #ff2222;
+         border-color: #ff1100;
+         color: white;
+      }
+    </style>
   </head>
 
   <body>
@@ -49,7 +57,7 @@
 	 ?>
       <div class="row">
 	<div class="small-12 columns">
-	  <div data-alert class="alert-box warning radius">
+	  <div data-alert class="alert-box failure radius">
 	    Member is a duplicate. Not added.
 	    <a href="#" class="close">&times;</a>
 	  </div>
