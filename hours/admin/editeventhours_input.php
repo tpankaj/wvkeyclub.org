@@ -31,7 +31,7 @@
 	   $db = $m->wvkeyclub;
 
 	   $eventid = new MongoId($_POST["event-id"]);
-	   $event = $db->events->find(array("_id" => $eventid);
+	   $event = $db->events->find(array("_id" => $eventid));
 
            $attendees = $db->members->find(array("hours" => array('$elemMatch' => array("event_id" => $_POST["event-id"]))));
            $i = 1;
