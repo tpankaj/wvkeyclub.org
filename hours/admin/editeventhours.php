@@ -32,7 +32,7 @@
 		    $m = new MongoClient("mongodb://localhost");
 		    $db = $m->wvkeyclub;
 
-	            $results = $db->events->find()->sort(array("time.start" => 1));
+	            $results = $db->events->find(array("hours_entered" => true))->sort(array("time.start" => 1));
 
                     foreach ($results as $event)
                     {
