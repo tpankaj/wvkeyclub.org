@@ -25,7 +25,7 @@
 
       <form method="post" action="/hours/admin/editeventhours_process.php" data-abide>
 	<input type="hidden" name="event-id" value="<?php echo $_POST["event-id"]; ?>" />
-	<input type="hidden" name="attendees-to-add" value="<?php if (isset(attendees-to-add)) echo $_POST["attendees-to-add"]; else echo "0";?>" />
+	<input type="hidden" name="attendees-to-add" value="<?php if (isset($_POST["attendees-to-add"])) echo $_POST["attendees-to-add"]; else echo "0";?>" />
 	<?php
 	   $m = new MongoClient("mongodb://localhost");
 	   $db = $m->wvkeyclub;
