@@ -11,7 +11,13 @@
       "registered" => filter_var($_POST["registered"], FILTER_VALIDATE_BOOLEAN)
    );
 
-   $db->members->insert($member);
-
-   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addmember_success");
+   if ($db->members->find(array("fname" => $_POST["fname"], "lname" => $_POST["lname"]))->count() == 0)
+   {
+      header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addmember_failure_duplicate");
+   }
+   else
+   {
+      $db->members->insert($member);
+      header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addmember_success");
+   }
    ?>

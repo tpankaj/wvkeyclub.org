@@ -44,6 +44,19 @@
       </div>
       <?php
 	    }
+	    else if ($_GET["message"] == "addmember_failure_duplicate")
+	    {
+	 ?>
+      <div class="row">
+	<div class="small-12 columns">
+	  <div data-alert class="alert-box warning radius">
+	    Member is a duplicate. Not added.
+	    <a href="#" class="close">&times;</a>
+	  </div>
+	</div>
+      </div>
+      <?php
+	    }
 	    else if ($_GET["message"] == "addeventhours_success")
 	    {
 	 ?>
