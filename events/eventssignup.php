@@ -41,6 +41,7 @@
 	    }
 	    else if ($_GET["message"] == "eventremoval_success")
 	    {
+	 ?>
       <div class="row">
 	<div class="twelve columns">
 	  <div data-alert class="alert-box success radius">
@@ -49,7 +50,6 @@
 	  </div>
 	</div>
       </div>
-	 ?>
       <?php
 	    }
 	 }
