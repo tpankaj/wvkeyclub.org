@@ -7,7 +7,6 @@
   <head>
     <title>Events List -  Westview Key Club</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/header.php"); ?>
-    <link rel="stylesheet" href="/css/tablesorter.css">
   </head>
 
   <body>
@@ -15,9 +14,9 @@
 
     <header class="hide-for-small">
       <div class="row">
-	<div class="small-12 columns">
-	  <h1>Events Admin Panel</h1>
-	  <h2>Events List</h2>
+	<div class="twelve columns">
+	  <h1>Events</h1>
+	  <h2>Sign-Ups for <?php echo $_REQUEST["email"]; ?></h2>
 	</div>
       </div>
     </header>
@@ -31,7 +30,7 @@
 	    {
 	 ?>
       <div class="row">
-	<div class="small-12 columns">
+	<div class="twelve columns">
 	  <div data-alert class="alert-box success radius">
 	    Event sign-up successful!
 	    <a href="#" class="close">&times;</a>
@@ -40,19 +39,37 @@
       </div>
       <?php
 	    }
+	    else if ($_GET["message"] == "eventremoval_success")
+	    {
+      <div class="row">
+	<div class="twelve columns">
+	  <div data-alert class="alert-box success radius">
+	    Event removal successful!
+	    <a href="#" class="close">&times;</a>
+	  </div>
+	</div>
+      </div>
+	 ?>
+      <?php
+	    }
 	 }
 	 ?>
-      <?php echo $_REQUEST["email"]; ?>
 
       <div class="row">
-	<div class="small-12 columns">
+	<div class="one column">
+	  <ul class="side-nav">
+	    <li><a href="/events/">&larr; Go back</a></li>
+	  </ul>
+	</div>
+
+	<div class="eleven columns">
 	  <table style="margin-left:auto; margin-right:auto;">
 	    <thead>
 	      <tr>
 		<th class="header">Name</th>
 		<th class="header">Start Time</th>
 		<th class="header">End Time</th>
-		<th class="header">Sign Up</th>
+		<th class="header">Action</th>
 	    </thead>
 	    <tbody>
 	      <?php
@@ -85,13 +102,13 @@
 		     if (isset($event["email_list"]) && in_array($_REQUEST["email"], $event["email_list"]))
 	 	     {
 		     ?>
-		  Signed Up
+		  <a href="/events/eventssignup_process.php?id=<?php echo $event["_id"];?>&action=pull&email=<?php echo urlencode($_REQUEST["email"]); ?>">Remove</a>
 		  <?php
 		     }
 		     else
 		     {
 		     ?>
-		  <a href="/events/eventssignup_process.php?id=<?php echo $event["_id"];?>&email=<?php echo urlencode($_REQUEST["email"]); ?>">Sign Up</a>
+		  <a href="/events/eventssignup_process.php?id=<?php echo $event["_id"];?>&action=push&email=<?php echo urlencode($_REQUEST["email"]); ?>">Sign Up</a>
 		  <?php
 		     }
 		     ?>
