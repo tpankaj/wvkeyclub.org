@@ -76,7 +76,7 @@
 		  <?php
 		     $endtime = new DateTime();
 		     $endtime->setTimestamp(intval($event["time"]["end"]));
-		     echo $endtime->format("D, d-M-y g:i A T"));
+		     echo $endtime->format("D, d-M-y g:i A T");
 		     ?>
 		</td>
 		<td>
