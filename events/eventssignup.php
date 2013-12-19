@@ -56,7 +56,7 @@
 	 ?>
 
       <div class="row">
-	<div class="one column">
+	<div class="two columns">
 	  <ul class="side-nav">
 	    <li><a href="/events/">&larr; Go back</a></li>
 	  </ul>
