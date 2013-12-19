@@ -58,7 +58,7 @@
 		 $m = new MongoClient("mongodb://localhost");
 		 $db = $m->wvkeyclub;
 
-	         $results = $db->events->find()->sort(array("time.start" => 1));
+	         $results = $db->events->find(array("time.start" => array('$gt' : time())))->sort(array("time.start" => 1));
 
                  foreach ($results as $event)
                  {
@@ -69,14 +69,14 @@
 		  <?php
 		     $starttime = new DateTime();
 		     $starttime->setTimestamp(intval($event["time"]["start"]));
-		     echo $starttime->format("D, d-M-y g:i A T");
+		     echo $starttime->format("D, d-M-y g:i A");
 		     ?>
 		</td>
 		<td>
 		  <?php
 		     $endtime = new DateTime();
 		     $endtime->setTimestamp(intval($event["time"]["end"]));
-		     echo $endtime->format("D, d-M-y g:i A T");
+		     echo $endtime->format("D, d-M-y g:i A");
 		     ?>
 		</td>
 		<td>
