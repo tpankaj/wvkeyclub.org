@@ -58,7 +58,7 @@
 		 $m = new MongoClient("mongodb://localhost");
 		 $db = $m->wvkeyclub;
 
-	         $results = $db->events->find(array("time.start" => array('$gt' : time())))->sort(array("time.start" => 1));
+	         $results = $db->events->find(array("time.start" => array('$gt' => time())))->sort(array("time.start" => 1));
 
                  foreach ($results as $event)
                  {
