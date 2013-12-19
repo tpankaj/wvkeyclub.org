@@ -62,7 +62,7 @@
 	  </ul>
 	</div>
 
-	<div class="eleven columns">
+	<div class="ten columns">
 	  <table style="margin-left:auto; margin-right:auto;">
 	    <thead>
 	      <tr>
