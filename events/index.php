@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
   <head>
-    <title>Events - Westview Key Club</title>
+    <title>Events -  Westview Key Club</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/header.php"); ?>
   </head>
 
@@ -30,12 +30,28 @@
 
       <div class="row">
 	<div class="small-12 columns">
-	  <iframe src="https://www.google.com/calendar/embed?src=d51haimqra31ucq9tkabrng9us%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	  <p>
+	    <a href="#" data-reveal-id="events-sign-up-modal">Events Sign-Up</a><br />
+	  </p>
 	</div>
       </div>
 
     </div>
 
+    <div id="events-sign-up-modal" class="reveal-modal" data-reveal>
+      <h2>Events Sign-Up</h2>
+      <form method="post" action="/hours/eventssignup.php" data-abide>
+      <p>
+	<label>Email address <small>required</small></label>
+	<input type="email" name="email" required />
+      </p>
+      <p>
+	<input type="submit" value="Submit" />
+      </p>
+      </form>
+      <a class="close-reveal-modal">&#215;</a>
+    </div>
+    
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/footer.php"); ?>
   </body>
 

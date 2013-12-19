@@ -47,14 +47,14 @@
                  {
 		 ?>
 	      <tr>
-		<td><a href="/hours/new/viewdetailedhours.php?id=<?php echo $member["_id"]; ?>"><?php echo $member["lname"]; ?>, <?php echo $member["fname"]; ?></a></td>
+		<td><a href="/hours/viewdetailedhours.php?id=<?php echo $member["_id"]; ?>"><?php echo $member["lname"]; ?>, <?php echo $member["fname"]; ?></a></td>
 		<td>
 		  <?php
 		     if (array_key_exists("hours", $member))
 		        echo sum_hours($member["hours"]);
 		     else
 		        echo "0";
-		     ?>
+  		     ?>
 		</td>
 		<td><?php echo $member["graduation_year"]; ?></td>
 		<td>
