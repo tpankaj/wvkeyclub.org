@@ -12,5 +12,5 @@
 	$db->members->update(array("fname" => $_POST["member-fname-" . $i], "lname" => $_POST["member-lname-" . $i]), array('$push' => array("hours" => array("event_id" => $_POST["event-id"], "hours" => $_POST["member-hours-" . $i]))));
    }
 
-   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addeventhours_success");
+   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=editeventhours_success");
   ?>

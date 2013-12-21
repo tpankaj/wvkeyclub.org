@@ -78,6 +78,19 @@
       </div>
       <?php
 	    }
+	    else if ($_GET["message"] == "editeventhours_success")
+	    {
+	 ?>
+      <div class="row">
+	<div class="small-12 columns">
+	  <div data-alert class="alert-box success radius">
+	    Hours successfully edited!
+	    <a href="#" class="close">&times;</a>
+	  </div>
+	</div>
+      </div>
+      <?php
+	    }
 	 }
 	 ?>
 
