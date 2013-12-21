@@ -49,7 +49,18 @@
 	  </div>
 	  <div class="small-2 columns">
 	    <label>Hours <small>required</small></label>
+	    <?php
+	       foreach ($attendee["hours"] as $event)
+	       {
+	          if ($event["event_id"] == $_POST["event-id"])
+	          {
+	       ?>
 	    <input type="number" name="member-hours-<?php echo $i; ?>" value="<?php echo $attendee["hours"]; ?>" required />
+	    <?php
+	             break;
+	          }
+	       }
+	       ?>
 	  </div>
 	</div>
 	<?php
