@@ -94,9 +94,8 @@
 	</div>
 	<?php
 	   }
-	   echo $i;
 	   ?>
-	<input type="hidden" name="attendee-count" value="<?php echo $i; ?>" />
+	<input type="hidden" name="attendee-count" value="<?php echo ($i - 1); ?>" />
 	<div class="row">
 	  <div class="small-2 columns">
 	    <input type="submit" value="Submit" />
