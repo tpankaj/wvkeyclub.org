@@ -25,7 +25,6 @@
 
       <form method="post" action="/hours/admin/editeventhours_process.php" data-abide>
 	<input type="hidden" name="event-id" value="<?php echo $_POST["event-id"]; ?>" />
-	<input type="hidden" name="attendees-to-add" value="<?php if (isset($_POST["attendees-to-add"])) echo $_POST["attendees-to-add"]; else echo "0";?>" />
 	<?php
 	   $m = new MongoClient("mongodb://localhost");
 	   $db = $m->wvkeyclub;
@@ -34,6 +33,8 @@
 	   $event = $db->events->find(array("_id" => $eventid));
 
            $attendees = $db->members->find(array("hours" => array('$elemMatch' => array("event_id" => $_POST["event-id"]))));
+          ?>
+	<?php
            $i = 1;
            foreach ($attendees as $attendee)
            {
@@ -94,6 +95,7 @@
 	<?php
 	   }
 	   ?>
+	<input type="hidden" name="attendee-count" value="<?php echo $i; ?>" />
 	<div class="row">
 	  <div class="small-2 columns">
 	    <input type="submit" value="Submit" />
