@@ -55,7 +55,7 @@
 	          if ($event["event_id"] == $_POST["event-id"])
 	          {
 	       ?>
-	    <input type="number" name="member-hours-<?php echo $i; ?>" value="<?php echo $attendee["hours"]; ?>" required />
+	    <input type="number" name="member-hours-<?php echo $i; ?>" value="<?php echo $event["hours"]; ?>" required />
 	    <?php
 	             break;
 	          }
