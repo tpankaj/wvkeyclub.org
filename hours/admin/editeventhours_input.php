@@ -40,22 +40,22 @@
           ?>
 	<div class="row">
 	  <div class="small-5 columns">
-	    <label>Member first name <small>required</small></label>
-	    <input type="text" name="member-fname-<?php echo $i; ?>" value="<?php echo $attendee["fname"]; ?>" required />
+	    <label>Member first name</label>
+	    <input type="text" name="member-fname-<?php echo $i; ?>" value="<?php echo $attendee["fname"]; ?>" />
 	  </div>
 	  <div class="small-5 columns">
-	    <label>Member last name <small>required</small></label>	    
-	    <input type="text" name="member-lname-<?php echo $i; ?>" value="<?php echo $attendee["lname"]; ?>" required />
+	    <label>Member last name</label>	    
+	    <input type="text" name="member-lname-<?php echo $i; ?>" value="<?php echo $attendee["lname"]; ?>" />
 	  </div>
 	  <div class="small-2 columns">
-	    <label>Hours <small>required</small></label>
+	    <label>Hours</label>
 	    <?php
 	       foreach ($attendee["hours"] as $event)
 	       {
 	          if ($event["event_id"] == $_POST["event-id"])
 	          {
 	       ?>
-	    <input type="number" name="member-hours-<?php echo $i; ?>" value="<?php echo $event["hours"]; ?>" required />
+	    <input type="number" name="member-hours-<?php echo $i; ?>" value="<?php echo $event["hours"]; ?>" />
 	    <?php
 	             break;
 	          }
@@ -79,16 +79,16 @@
          ?>
 	<div class="row">
 	  <div class="small-5 columns">
-	    <label>Member first name <small>required</small></label>
-	    <input type="text" name="member-fname-<?php echo $i; ?>" required />
+	    <label>Member first name</label>
+	    <input type="text" name="member-fname-<?php echo $i; ?>" />
 	  </div>
 	  <div class="small-5 columns">
-	    <label>Member last name <small>required</small></label>	    
-	    <input type="text" name="member-lname-<?php echo $i; ?>" required />
+	    <label>Member last name</label>	    
+	    <input type="text" name="member-lname-<?php echo $i; ?>" />
 	  </div>
 	  <div class="small-2 columns">
-	    <label>Hours <small>required</small></label>
-	    <input type="number" name="member-hours-<?php echo $i; ?>" required />
+	    <label>Hours</label>
+	    <input type="number" name="member-hours-<?php echo $i; ?>" />
 	  </div>
 	</div>
 	<?php
