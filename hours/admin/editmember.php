@@ -50,8 +50,8 @@
 	</div>
 	<div class="row">
 	  <div class="small-12 columns">
-	    <label>Graduation year <small>required</small></label>
-	    <input type="number" name="graduation_year" value="<?php echo $member["graduation_year"]; ?>" required />
+	    <label>Graduation year</label>
+	    <input type="number" name="graduation_year" value="<?php echo $member["graduation_year"]; ?>" />
 	  </div>
 	</div>
 	<div class="row">
