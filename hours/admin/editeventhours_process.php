@@ -4,7 +4,7 @@
 
    $eventid = new MongoId($_POST["event-id"]);
 
-   $db->members->update(array(), array('$pull' => array("hours" => array("event_id" => $_POST["event-id"]))));
+   $db->members->update(array(), array('$pull' => array("hours" => array("event_id" => $_POST["event-id"]))), array("multiple" => true));
    for ($i = 1; $i <= $_POST["attendee-count"]; $i++)
    {
         if ($_POST["member-fname-" . $i] == "" || $_POST["member-hours-" . $i] == "" || $_POST["member-hours-" . $i] == "")
