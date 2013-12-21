@@ -94,6 +94,7 @@
 	</div>
 	<?php
 	   }
+	   echo $i;
 	   ?>
 	<input type="hidden" name="attendee-count" value="<?php echo $i; ?>" />
 	<div class="row">
