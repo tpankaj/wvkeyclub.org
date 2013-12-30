@@ -27,7 +27,5 @@
       $get_args .= "c=" . $nonexistent_count . "&id=" . $_POST["event-id"];
       header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/addeventhours_nonexistent_members.php?" . $get_args);
    }
-   else
-      echo "No error";
-   //header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addeventhours_success");
+   header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/index.php?message=addeventhours_success");
   ?>
