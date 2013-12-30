@@ -25,8 +25,7 @@
          $get_args .= "&h" . $i . "=" . $nonexistent_members[$i][2] . "&";
       }
       $get_args .= "c=" . $nonexistent_count . "&id=" . $_POST["event-id"];
-     var_dump($get_args);
-     // header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/addeventhours_nonexistent_members.php?" . $get_args);
+      header("Location: http://" . $_SERVER["SERVER_NAME"] . "/hours/admin/addeventhours_nonexistent_members.php?" . $get_args);
    }
    else
       echo "No error";
