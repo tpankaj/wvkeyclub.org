@@ -109,6 +109,7 @@
 	  <h3>Data</h3>
 	  <p>
 	    <a href="/hours/admin/memberslist.php">Members List</a><br />
+	    <a href="/hours/admin/emaillist.php">Email List</a><br />
 	  </p>
 	</div>
       </div>
