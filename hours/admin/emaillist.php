@@ -33,7 +33,7 @@
    $email_list_temp = $email_list;
    $email_list = array_merge($email_list_temp, $registered_emails);
    $email_list_temp = $email_list;
-   $email_list = array_unique($email_list);
+   $email_list = array_unique($email_list_temp);
    ?>
 
 <!DOCTYPE html>
