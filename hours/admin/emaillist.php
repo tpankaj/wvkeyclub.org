@@ -37,6 +37,7 @@
    var_dump($email_list);
    $email_list = array_unique($email_list);
    var_dump($email_list);
+   $email_list = array_values($email_list);
    ?>
 
 <!DOCTYPE html>
