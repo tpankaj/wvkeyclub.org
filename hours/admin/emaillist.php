@@ -34,7 +34,9 @@
    {
       $email_list[] = $registered_emails[$i];
    }
+   var_dump($email_list);
    $email_list = array_unique($email_list);
+   var_dump($email_list);
    ?>
 
 <!DOCTYPE html>
