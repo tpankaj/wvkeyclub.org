@@ -27,13 +27,14 @@
    $email_list = array();
    for ($i = 0; $i < $event_count; $i++)
    {
-      $email_list_temp = $email_list;
-      $email_list = array_merge($email_list_temp, $email_lists[$i]);
+      for ($j = 0; $j < count($email_lists[$i]); $j++)
+         $email_list[] = $email_lists[$i][$j];
    }
-   $email_list_temp = $email_list;
-   $email_list = array_merge($email_list_temp, $registered_emails);
-   $email_list_temp = $email_list;
-   $email_list = array_unique($email_list_temp);
+   for ($i = 0; $i < count($registered_emails); $i++)
+   {
+      $email_list[] = $registered_emails[$i];
+   }
+   $email_list = array_unique($email_list);
    ?>
 
 <!DOCTYPE html>
