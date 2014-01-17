@@ -20,7 +20,7 @@
    $registered_emails = array();
    foreach ($members as $member)
    {
-      if (isset($member["email"] && $member["email"] != "")
+      if (isset($member["email"]) && $member["email"] != "")
          $registered_emails[] = $member["email"];
    }
 
