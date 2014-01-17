@@ -70,6 +70,7 @@
 	     $email_list_str = "";
 	     for ($i = 0; $i < count($email_list); $i++)
              {
+	             echo $email_list[$i];
 		     $email_list_str .= $email_list[$i];
 		     if ($i != count($email_list) - 1)
 		         $email_list_str .= ",";
