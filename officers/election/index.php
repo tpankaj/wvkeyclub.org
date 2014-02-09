@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
   <head>
-    <title>Club Officers Election 2014 - Westview Key Club</title>
+    <title>Executive Board Election 2014 - Westview Key Club</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/header.php"); ?>
     <style>
       .candidate
@@ -21,7 +21,7 @@
     <header class="hide-for-small">
       <div class="row">
 	<div class="twelve columns">
-	  <h1>Club Officers Election 2014</h1>
+	  <h1>Executive Board Election 2014</h1>
 	</div>
       </div>
     </header>
@@ -30,14 +30,14 @@
 
       <div class="row show-for-small">
 	<div class="twelve columns">
-	  <h1>Club Officers Election 2014</h1>
+	  <h1>Executive Board Election 2014</h1>
 	</div>
       </div>
 
       <div class="row">
 	<div class="twelve columns">
 	  <p>
-	    Here is a list of the candidates for the election taking place at lunch on Thursday, February 13, 2014 in L101.
+	    Here is a message from each of the candidates for the election taking place at lunch on Thursday, February 13, 2014 in L101. Participation in the election will be limited to registered members only.
 	  </p>
 	  <h3>President and Vice President</h3>
 	</div>
@@ -46,7 +46,7 @@
       <div class="row">
 	<div class="four columns candidate">
 	  <h4>
-	    Amanda Du
+	    Amanda Du<br />
 	    Class of 2016
 	  </h4>
 	</div>
@@ -60,7 +60,7 @@
       <div class="row">
 	<div class="four columns candidate">
 	  <h4>
-	    Shaoxiong Liu
+	    Shaoxiong Liu<br />
 	    Class of 2015
 	  </h4>
 	</div>
@@ -74,7 +74,7 @@
       <div class="row">
 	<div class="four columns candidate">
 	  <h4>
-	    Lily Vo
+	    Lily Vo<br />
 	    Class of 2015
 	  </h4>
 	</div>
@@ -94,7 +94,7 @@
       <div class="row">
 	<div class="four columns candidate">
 	  <h4>
-	    Diandra Almasco
+	    Diandra Almasco<br />
 	    Class of 2015
 	  </h4>
 	</div>
@@ -108,7 +108,7 @@
       <div class="row">
 	<div class="four columns candidate">
 	  <h4>
-	    Tushar Pankaj
+	    Tushar Pankaj<br />
 	    Class of 2015
 	  </h4>
 	</div>
@@ -122,7 +122,7 @@
       <div class="row">
 	<div class="four columns candidate">
 	  <h4>
-	    Audrey Trinh
+	    Audrey Trinh<br />
 	    Class of 2017
 	  </h4>
 	</div>
@@ -136,7 +136,7 @@
       <div class="row">
 	<div class="four columns candidate">
 	  <h4>
-	    Brandon Zhang
+	    Brandon Zhang<br />
 	    Class of 2016
 	  </h4>
 	</div>
@@ -162,7 +162,7 @@
       <div class="row">
 	<div class="four columns candidate">
 	  <h4>
-	    Luqmaan Bokhary
+	    Luqmaan Bokhary<br />
 	    Class of 2017
 	  </h4>
 	</div>
@@ -182,7 +182,7 @@
       <div class="row">
 	<div class="four columns candidate">
 	  <h4>
-	    Alec Chen
+	    Alec Chen<br />
 	    Class of 2015
 	  </h4>
 	</div>
