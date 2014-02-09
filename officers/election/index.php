@@ -37,7 +37,7 @@
       <div class="row">
 	<div class="twelve columns">
 	  <p>
-	    Here is a message from each of the candidates for the election taking place at lunch on Thursday, February 13, 2014 in L101. Participation in the election will be limited to registered members only.
+	    Here is a message from each of the candidates for the election taking place at lunch on Thursday, February 13, 2014 in L101. Participation in the election will be limited to registered and dues paid members only.
 	  </p>
 	  <h3>President and Vice President</h3>
 	</div>
