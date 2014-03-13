@@ -12,13 +12,8 @@
       <li class="show-for-small">
 	<a href="/">Home</a>
       </li>
-      <li class="has-dropdown">
+      <li>
 	<a href="/officers/">Officers</a>
-	<ul class="dropdown">
-	  <li>
-	    <a href="/officers/election/">Election</a>
-	  </li>
-	</ul>
       </li>
       <li class="has-dropdown">
 	<a href="/events/">Events</a>
