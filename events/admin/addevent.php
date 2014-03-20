@@ -23,6 +23,15 @@
 
     <div id="mainContent">
 
+      <div class="row">
+	<div class="small-12 columns">
+	  <div data-alert class="alert-box info round">
+	    Remember that Daylight Savings timezone is -07:00~
+	    <a href="#" class="close">&times;</a>
+	  </div>
+	</div>
+      </div>
+
       <form method="post" action="/events/admin/addevent_process.php" data-abide>
 	<div class="row">
 	  <div class="small-12 columns">
