@@ -26,7 +26,7 @@
       <div class="row">
 	<div class="small-12 columns">
 	  <div data-alert class="alert-box info round">
-	    Remember that Daylight Savings timezone is -07:00~
+	    Remember that Daylight Savings timezone is -07:00.
 	    <a href="#" class="close">&times;</a>
 	  </div>
 	</div>
@@ -41,7 +41,7 @@
 	</div>
 	<div class="row">
 	  <div class="small-6 columns">
-	    <label>Start time (ex: 2013-11-27T22:22:16-08:00) <small>required</small></label>
+	    <label>Start time (ex: 2013-11-27T22:22:16-07:00) <small>required</small></label>
 	    <input type="datetime" placeholder="YYYY-MM-DDThh:mm:ssTZD" name="start-time" required />
 	  </div>
 	  <div class="small-6 columns">
