@@ -32,7 +32,7 @@
 	<div class="small-9 columns">
 	  <h3>What Is Key Club?</h3>
 	  <p>
-	    Key Club International is the largest high school organization devoted to providing service to communities. Westview Key Club is the largest community service club on Westview campus. Worldwide, there are 250,000 members, 5,000 clubs, and participation in 31 countries. The first Key Club originated in May 1925 at Sacramento High School in California. This club was sponsored by the Kiwanis Club of Sacramento and this first club's original idea was to create a vocational guidance program to stop the problems of fraternities. From this beginning group came the idea of a service organization aimed at bettering the home.
+	    Key Club International is the largest high school organization devoted to providing service to communities. Westview Key Club is the largest community service club on Westview's campus. We meet every Thursday at lunch in L101 (Oydna). Worldwide, there are 250,000 members, 5,000 clubs, and participation in 31 countries. The first Key Club originated in May 1925 at Sacramento High School in California. This club was sponsored by the Kiwanis Club of Sacramento and this first club's original idea was to create a vocational guidance program to stop the problems of fraternities. From this beginning group came the idea of a service organization aimed at bettering the home.
 	  </p>
 	  <h3> Key Club Pledge</h3>
 	  <p>
