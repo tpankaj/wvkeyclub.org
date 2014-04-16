@@ -178,7 +178,7 @@
 	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
-	      <!--<img src="/officers/images/alec-chen.jpg" height="512" width="512" alt="" />-->
+	      <img src="/officers/images/alec-chen.jpg" height="512" width="512" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
