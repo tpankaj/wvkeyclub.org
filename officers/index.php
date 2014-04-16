@@ -8,7 +8,7 @@
     <title>Officers - Westview Key Club</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/header.php"); ?>
     <style>
-      .officer
+      .officer-title
       {
          text-align:center;
       }
@@ -47,8 +47,8 @@
       </div>
 
       <!-- Michael Zhang, Lt. Governor -->
-      <div class="row">
-	<div class="four columns officer">
+      <div class="row officer">
+	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <!--<img src="/officers/images/michael-zhang.jpg" height="512" width="512" alt="" />-->
@@ -74,8 +74,8 @@
       </div>
 
       <!-- Lily Vo, President -->
-      <div class="row">
-	<div class="four columns officer">
+      <div class="row officer">
+	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/lily-vo.jpg" height="512" width="512" alt="" />
@@ -98,8 +98,8 @@
       </div>
 
       <!-- Shaoxiong Liu, Vice President -->
-      <div class="row">
-	<div class="four columns officer">
+      <div class="row officer">
+	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <!--<img src="/officers/images/shaoxiong-liu.jpg" height="512" width="512" alt="" />-->
@@ -119,8 +119,8 @@
       </div>
 
       <!-- Brandon Zhang, Secretary -->
-      <div class="row">
-	<div class="four columns officer">
+      <div class="row officer">
+	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/brandon-zhang.jpg" height="512" width="512" alt="" />
@@ -146,8 +146,8 @@
       </div>
 
       <!-- Luqmaan Bokhary, Treasurer -->
-      <div class="row">
-	<div class="four columns officer">
+      <div class="row officer">
+	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <img src="/officers/images/luqmaan-bokhary.jpg" height="512" width="512" alt="" />
@@ -170,8 +170,8 @@
       </div>
 
       <!-- Alec Chen, Bulletin Editor -->
-      <div class="row">
-	<div class="four columns officer">
+      <div class="row officer">
+	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
 	      <!--<img src="/officers/images/alec-chen.jpg" height="512" width="512" alt="" />-->
