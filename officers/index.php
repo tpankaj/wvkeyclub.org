@@ -47,7 +47,6 @@
 	  <p>
 	    If there is not a name filling a position in the list below, that most likely means that the position is open for applications. If you would like to apply, please email <a href="mailto:wvkeyclub@gmail.com">wvkeyclub@gmail.com</a>.
 	  </p>
-	  <h3>Division 37 South Leader</h3>
 	</div>
       </div>
 
