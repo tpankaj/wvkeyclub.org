@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="/css/presentation.css">
 <link rel="stylesheet" href="/css/foundation.css">
 <link rel="stylesheet" href="/css/text.css">
-<script src="/js/vendor/modernizr.js"></script>
+<script src="/js/vendor/custom.modernizr.js"></script>
 
 <!-- IE Fix for HTML5 Tags -->
 <!--[if lt IE 9]>
