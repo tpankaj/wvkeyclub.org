@@ -134,7 +134,7 @@
     </div>
 
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/footer.php"); ?>
-    <script src="/js/jquery.tablesorter.min.js"></script>
+    <script src="/js/vendor/tablesorter.js"></script>
     <script>
       $(document).ready(function()
          {
