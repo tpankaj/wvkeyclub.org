@@ -33,7 +33,7 @@
 	  <p>
 	    <a href="#" data-reveal-id="view-my-hours-modal">View My Hours</a><br />
 	    <a href="/hours/hourslist.php">View All Hours</a><br />
-	    <a href="/hours/old/">View 2013-2014 Hours</a>
+	    <a href="/hours/2013-2014/">View 2013-2014 Hours</a>
 	  </p>
 	</div>
       </div>
