@@ -5,7 +5,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
   <head>
-    <title>Hours -  Westview Key Club</title>
+    <title>2013-2014 Hours -  Westview Key Club</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/header.php"); ?>
   </head>
 
@@ -15,7 +15,7 @@
     <header class="hide-for-small">
       <div class="row">
 	<div class="small-12 columns">
-	  <h1>Hours</h1>
+	  <h1>2013-2014 Hours</h1>
 	</div>
       </div>
     </header>
@@ -24,7 +24,7 @@
 
       <div class="row show-for-small">
 	<div class="small-12 columns">
-	  <h1>Hours</h1>
+	  <h1>2013-2014 Hours</h1>
 	</div>
       </div>
 
@@ -32,8 +32,7 @@
 	<div class="small-12 columns">
 	  <p>
 	    <a href="#" data-reveal-id="view-my-hours-modal">View My Hours</a><br />
-	    <a href="/hours/hourslist.php">View All Hours</a>
-	    <a href="/hours/old/">View 2013-2014 Hours</a>
+	    <a href="/hours/2013-2014/hourslist.php">View All Hours</a>
 	  </p>
 	</div>
       </div>
@@ -42,7 +41,7 @@
 
     <div id="view-my-hours-modal" class="reveal-modal" data-reveal>
       <h2>View My Hours</h2>
-      <form method="post" action="/hours/viewdetailedhours.php" data-abide>
+      <form method="post" action="/hours/2013-2014/viewdetailedhours.php" data-abide>
       <p>
 	<label>Email address <small>required</small></label>
 	<input type="email" name="email" required />
