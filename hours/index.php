@@ -32,7 +32,7 @@
 	<div class="small-12 columns">
 	  <p>
 	    <a href="#" data-reveal-id="view-my-hours-modal">View My Hours</a><br />
-	    <a href="/hours/hourslist.php">View All Hours</a>
+	    <a href="/hours/hourslist.php">View All Hours</a><br />
 	    <a href="/hours/old/">View 2013-2014 Hours</a>
 	  </p>
 	</div>
