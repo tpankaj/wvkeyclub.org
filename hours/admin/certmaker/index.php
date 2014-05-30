@@ -44,8 +44,8 @@
 	        $event_id = new MongoId($event_hours["event_id"]);
 	        $event = $db->events->findOne(array("_id" => $event_id));
            	$time = new DateTime();
-                $starttime->setTimestamp(intval($event["time"]["start"]));
-	        echo $event["name"] . " " . $starttime->format(DateTime::W3C) . " " . $event_hours["hours"] . "<br />";
+                $time->setTimestamp(intval($event["time"]["start"]));
+	        echo $event["name"] . " " . $time->format(DateTime::W3C) . " " . $event_hours["hours"] . "<br />";
 	     }
 	     ?>
 	</div>
