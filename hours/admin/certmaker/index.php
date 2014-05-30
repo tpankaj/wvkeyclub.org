@@ -37,7 +37,7 @@
            ?>
 
           Name: <?php echo $member["fname"]; ?>  <?php echo $member["lname"]; ?><br />
-	  Total Hours: <?php echo sum_hours($members["hours"]); ?><br />
+	  Total Hours: <?php echo sum_hours($member["hours"]); ?><br />
 	  <?php
 	     foreach ($member["hours"] as $event_hours)
              {
@@ -45,7 +45,7 @@
 	        $event = $db->events->findOne(array("_id" => $event_id));
            	$time = new DateTime();
                 $time->setTimestamp(intval($event["time"]["start"]));
-	        echo $event["name"] . " " . $time->format(DateTime::W3C) . " " . $event_hours["hours"] . "<br />";
+	        echo $event["name"] . " " . $time->format("F j, Y") . " " . $event_hours["hours"] . "<br />";
 	     }
 	     ?>
 	</div>
