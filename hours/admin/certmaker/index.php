@@ -29,7 +29,7 @@
              $m = new MongoClient("mongodb://localhost");
              $db = $m->wvkeyclub_2013_2014;
                
-	     if (!empty($_GET["id"))
+	     if (!empty($_GET["id"]))
 	     {
 	        $member_id = new MongoId($_GET["id"]);
 	        $member = $db->members->findOne(array("_id" => $member_id));
