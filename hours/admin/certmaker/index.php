@@ -27,7 +27,7 @@
 	  <?php
              require_once($_SERVER["DOCUMENT_ROOT"] . "/lib/hours.php");
              $m = new MongoClient("mongodb://localhost");
-             $db = $m->wvkeyclub;
+             $db = $m->wvkeyclub_2013_2014;
                
 	     if (!empty($_GET["id"))
 	     {
