@@ -31,6 +31,7 @@
 	      <tr>
 		<th class="header">Name</th>
 		<th class="header">Total Hours</th>
+		<th class="header">Id</th>
 	    </thead>
 	    <tbody>
 	      <?php
@@ -39,12 +40,10 @@
 		 $db = $m->wvkeyclub_2013_2014;
 
 	         $results = $db->members->find();
-                 $ids = "";
                  foreach ($results as $member)
                  {
                     if (!$member["registered"] || sum_hours($member["hours"]) < 3)
                        continue;
-                    $ids+=strval($member["_id"]) + "\n";
 		 ?>
 	      <tr>
 		<td><a href="/hours/admin/certmaker/cert.php?id=<?php echo $member["_id"]; ?>"><?php echo $member["lname"]; ?>, <?php echo $member["fname"]; ?></a></td>
@@ -56,6 +55,9 @@
 		        echo "0";
   		     ?>
 		</td>
+		<td>
+		  <?php echo $member["_id"]; ?>
+		</td>
 	      </tr>
 	      <?php
 		 }
@@ -64,7 +66,6 @@
 	  </table>
 	</div>
       </div>
-      <?php echo $ids; ?>
     </div>
 
     <div id="delete-modal" class="reveal-modal" data-reveal>
