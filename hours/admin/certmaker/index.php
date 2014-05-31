@@ -43,7 +43,7 @@
 
                  foreach ($results as $member)
                  {
-                    if (!$member["registered"] || sum_hours($member["hours"] < 3)
+                    if (!$member["registered"] || sum_hours($member["hours"]) < 3)
                        continue;
 		 ?>
 	      <tr>
