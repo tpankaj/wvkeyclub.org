@@ -7,6 +7,7 @@
   <head>
     <title>Certificate Maker -  Westview Key Club</title>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/header.php"); ?>
+    <link rel="stylesheet" href="/css/tablesorter.css">
   </head>
 
   <body>
@@ -22,37 +23,68 @@
     </header>
 
     <div id="mainContent">
+
       <div class="row">
 	<div class="small-12 columns">
-	  <?php
-             require_once($_SERVER["DOCUMENT_ROOT"] . "/lib/hours.php");
-             $m = new MongoClient("mongodb://localhost");
-             $db = $m->wvkeyclub_2013_2014;
-               
-	     if (!empty($_GET["id"]))
-	     {
-	        $member_id = new MongoId($_GET["id"]);
-	        $member = $db->members->findOne(array("_id" => $member_id));
-             }
-           ?>
+	  <table id="hourslist" class="tablesorter" style="margin-left:auto; margin-right:auto;">
+	    <thead>
+	      <tr>
+		<th class="header">Name</th>
+		<th class="header">Total Hours</th>
+		<th class="header">Registered?</th>
+	    </thead>
+	    <tbody>
+	      <?php
+		 require_once($_SERVER["DOCUMENT_ROOT"] . "/lib/hours.php");
+		 $m = new MongoClient("mongodb://localhost");
+		 $db = $m->wvkeyclub;
 
-          Name: <?php echo $member["fname"]; ?>  <?php echo $member["lname"]; ?><br />
-	  Total Hours: <?php echo sum_hours($member["hours"]); ?><br />
-	  <?php
-	     foreach ($member["hours"] as $event_hours)
-             {
-	        $event_id = new MongoId($event_hours["event_id"]);
-	        $event = $db->events->findOne(array("_id" => $event_id));
-           	$time = new DateTime();
-                $time->setTimestamp(intval($event["time"]["start"]));
-	        echo $event["name"] . " " . $time->format("F j, Y") . " " . $event_hours["hours"] . "<br />";
-	     }
-	     ?>
+	         $results = $db->members->find();
+
+                 foreach ($results as $member)
+                 {
+		 ?>
+	      <tr>
+		<td><a href="/hours/admin/certmaker/cert.php?id=<?php echo $member["_id"]; ?>"><?php echo $member["lname"]; ?>, <?php echo $member["fname"]; ?></a></td>
+		<td>
+		  <?php
+		     if (array_key_exists("hours", $member))
+		        echo sum_hours($member["hours"]);
+		     else
+		        echo "0";
+  		     ?>
+		</td>
+		<td>
+		  <?php
+		     if ($member["registered"])
+		        echo "Yes";
+		     else
+		        echo "No";
+		     ?>
+		</td>
+	      </tr>
+	      <?php
+		 }
+		 ?>
+	    </tbody>
+	  </table>
 	</div>
       </div>
+      
+    </div>
+
+    <div id="delete-modal" class="reveal-modal" data-reveal>
     </div>
 
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/footer.php"); ?>
+    <script src="/js/jquery.tablesorter.min.js"></script>
+    <script>
+      $(document).ready(function()
+         {
+            $("#hourslist").tablesorter({sortList: [[0,0]]});
+         }
+      );
+    </script>
   </body>
 
 </html>
