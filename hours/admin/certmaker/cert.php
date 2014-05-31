@@ -46,7 +46,7 @@
       $event = $db->events->findOne(array("_id" => $event_id));
       $time = new DateTime();
       $time->setTimestamp(intval($event["time"]["start"]));
-      echo $event["name"] . " & " . $time->format("F j, Y") . " & " . $event_hours["hours"] . "\\";
+      echo str_replace("&","\&",$event["name"]) . " & " . $time->format("F j, Y") . " & " . $event_hours["hours"] . "\\";
    }
 ?>
   \end{tabular}
