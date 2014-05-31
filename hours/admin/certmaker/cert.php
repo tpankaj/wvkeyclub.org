@@ -45,7 +45,7 @@
    {
       $event_id = new MongoId($event_hours["event_id"]);
       $event = $db->events->findOne(array("_id" => $event_id));
-      $eventlist[$event_id] = intval($event["time"]["start"]);
+      $eventlist[$event_hours["event_id"]] = intval($event["time"]["start"]);
    }
    asort($eventlist);
    foreach ($eventlist as $myid => $timestart)
