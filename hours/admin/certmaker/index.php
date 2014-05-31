@@ -43,6 +43,8 @@
 
                  foreach ($results as $member)
                  {
+                    if (!$member["registered"] || sum_hours($member["hours"] < 3)
+                       continue;
 		 ?>
 	      <tr>
 		<td><a href="/hours/admin/certmaker/cert.php?id=<?php echo $member["_id"]; ?>"><?php echo $member["lname"]; ?>, <?php echo $member["fname"]; ?></a></td>
