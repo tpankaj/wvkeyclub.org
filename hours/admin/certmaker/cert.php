@@ -40,9 +40,17 @@
   \begin{tabular}{p{0.5\textwidth} p{0.25\textwidth} p{0.25\textwidth}}
     \textit{Event} & \textit{Date} & \textit{Hours}\\
 <?php
+   $eventlist = array();
    foreach ($member["hours"] as $event_hours)
    {
       $event_id = new MongoId($event_hours["event_id"]);
+      $event = $db->events->findOne(array("_id" => $event_id));
+      $eventlist[$event_id] = intval($event["time"]["start"]);
+   }
+   asort($eventlist);
+   foreach ($eventlist as $myid => $timestart)
+   {
+      $event_id = new MongoId($myid);
       $event = $db->events->findOne(array("_id" => $event_id));
       $time = new DateTime();
       $time->setTimestamp(intval($event["time"]["start"]));
