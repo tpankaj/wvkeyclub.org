@@ -31,7 +31,7 @@
     {\color{gray} \uppercase{\Large This acknowledges that}} \\[1em]
     {\fontsize{36}{43}\selectfont <?php echo $member["fname"]; ?> <?php echo $member["lname"]; ?>} \\[1em]
     {\color{gray} \uppercase{\Large Has successfully completed a total of}}\\[0.5em]
-    \uppercase{\Large <?php echo sum_hours($member["hours"]); ?>} {\color{gray} \uppercase{through Westview Key Club}}
+    \uppercase{\Large <?php echo sum_hours($member["hours"]); ?>} {\color{gray} \uppercase{hours through Westview Key Club}}
     \HRule \\[0.5cm]
   }
 \end{center}
@@ -41,11 +41,13 @@
     \textit{Event} & \textit{Date} & \textit{Hours}\\
 <?php
    $eventlist = array();
+   $eventhourslist = array();
    foreach ($member["hours"] as $event_hours)
    {
       $event_id = new MongoId($event_hours["event_id"]);
       $event = $db->events->findOne(array("_id" => $event_id));
       $eventlist[$event_hours["event_id"]] = intval($event["time"]["start"]);
+      $eventhourslist[$event_hours["event_id"]] = $event_hours["hours"];
    }
    asort($eventlist);
    foreach ($eventlist as $myid => $timestart)
@@ -54,7 +56,7 @@
       $event = $db->events->findOne(array("_id" => $event_id));
       $time = new DateTime();
       $time->setTimestamp(intval($event["time"]["start"]));
-      echo str_replace("&","\&",$event["name"]) . " & " . $time->format("F j, Y") . " & " . $event_hours["hours"] . "\\\\";
+      echo str_replace("&","\&",$event["name"]) . " & " . $time->format("F j, Y") . " & " . $eventhourslist[$myid] . "\\\\";
    }
 ?>
   \end{tabular}
