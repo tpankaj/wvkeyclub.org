@@ -31,7 +31,7 @@
 	       for ($i = 0; $i < 10; $i++)
                {
 	       ?>
-	    <div><img class="picture-gallery-img" src="http://media.wvkeyclub.org/homepage-picture-slideshow/index.php?id=<?php echo $i; ?>" /></div>
+	    <div><img class="picture-gallery-img" data-lazy="http://media.wvkeyclub.org/homepage-picture-slideshow/index.php?id=<?php echo $i; ?>" /></div>
 	    <?php
 	       }
 	       ?>
