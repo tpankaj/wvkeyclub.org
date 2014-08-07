@@ -40,10 +40,8 @@
       });
       });
     </script>
-    <style>
-      .picture-gallery-image
+      .picture-gallery-img
       {
-      display: block;
       margin-left: auto;
       margin-right: auto;
       }
