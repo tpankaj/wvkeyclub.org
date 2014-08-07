@@ -40,6 +40,7 @@
       });
       });
     </script>
+    <style>
       .picture-gallery-img
       {
       margin-left: auto;
