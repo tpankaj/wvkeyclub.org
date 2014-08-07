@@ -41,9 +41,14 @@
       <div class="row">
 	<div class="three columns">
 	  <h3 style="text-align:center;">Quick Links</h3>
+	  <ul>
+	    <li><a href="#" data-reveal-id="view-my-hours-modal">View My Hours</a></li>
+	  </ul>
 	</div>
 	<div class="six columns">
 	  <h3 style="text-align:center;">What is Key Club?</h3>
+	  <ul>
+	  </ul>
 	</div>
 	<div class="three columns">
 	  <h3 style="text-align:center;">Announcements</h3>
@@ -74,6 +79,7 @@
 	</div>
       </div>
     </div>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/hours/view-my-hours-modal.php"); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/footer.php"); ?>
     <script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="/slick/slick.min.js"></script>
