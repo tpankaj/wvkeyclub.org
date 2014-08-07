@@ -61,7 +61,7 @@
 	    <?php
 	       if (isset($_REQUEST['back_uri'])) {
 	       ?>
-	       <li><a href="$<?php echo urldecode($_GET['back_uri']); ?>">&larr; Go back</a></li>
+	       <li><a href="<?php echo urldecode($_REQUEST['back_uri']); ?>">&larr; Go back</a></li>
 	    <?php
 	       }
 	       else {
