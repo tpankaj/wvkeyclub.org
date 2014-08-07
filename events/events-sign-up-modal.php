@@ -4,6 +4,7 @@
     <p>
       <label>Email address <small>required</small></label>
       <input type="email" name="email" required />
+      <input type="hidden" name="back_uri" value="<?php echo $_SERVER['REQUEST_URI']; ?>" />
     </p>
     <p>
       <input type="submit" value="Submit" />

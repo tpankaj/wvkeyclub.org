@@ -58,7 +58,19 @@
       <div class="row">
 	<div class="two columns">
 	  <ul class="side-nav">
-	    <li><a href="/events/">&larr; Go back</a></li>
+	    <?php
+	       if (isset($_REQUEST['back_uri'])) {
+	       ?>
+	       <li><a href="$<?php echo urldecode($_GET['back_uri']); ?>">&larr; Go back</a></li>
+	    <?php
+	       }
+	       else {
+	       ?>
+	       <li><a href="/events">&larr; Go back</a></li>
+	    ?>
+	    <?php
+	       }
+	       ?>
 	  </ul>
 	</div>
 
