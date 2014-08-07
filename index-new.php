@@ -28,10 +28,10 @@
 	       $max_id--;
 	       $picture_ids = range(0, $max_id);
 	       shuffle($picture_ids);
-	       for ($i = 0; $i < 10; $i++)
+	       for ($i = 0; $i < 5; $i++)
                {
 	       ?>
-	    <div><img class="picture-gallery-img" data-lazy="http://media.wvkeyclub.org/homepage-picture-slideshow/index.php?id=<?php echo $i; ?>" /></div>
+	    <div><img class="picture-gallery-img" src="http://media.wvkeyclub.org/homepage-picture-slideshow/index.php?id=<?php echo $picture_ids[$i]; ?>" /></div>
 	    <?php
 	       }
 	       ?>
@@ -48,7 +48,6 @@
       dots: true,
       arrows: false,
       infinite: true,
-      lazyLoad: 'ondemand',
       autoplay: true,
       autoplaySpeed: 3000
       });
@@ -59,6 +58,7 @@
       {
       margin-left: auto;
       margin-right: auto;
+      height: 40%;
       }
     </style>
   </body>
