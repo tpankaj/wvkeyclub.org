@@ -32,6 +32,9 @@
     <script type="text/javascript">   
       $(document).ready(function(){
       $('.picture-gallery').slick({
+      dots: true,
+      infinite: true,
+      lazyLoad: 'ondemand',
       autoplay: true,
       autoplaySpeed: 2000
       });
