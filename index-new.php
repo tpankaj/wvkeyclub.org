@@ -17,6 +17,11 @@
 	<div class="small-12 columns">
 	  <div class="picture-gallery">
 	    <div><img class="picture-gallery-img" src="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
+	    <div><img class="picture-gallery-img" src="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
+	    <div><img class="picture-gallery-img" src="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
+	    <div><img class="picture-gallery-img" src="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
+	    <div><img class="picture-gallery-img" src="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
+	    <div><img class="picture-gallery-img" src="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
 	  </div>
 	</div>
       </div>
