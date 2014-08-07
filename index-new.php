@@ -43,6 +43,7 @@
 	  <h3 style="text-align:center;">Quick Links</h3>
 	  <ul>
 	    <li><a href="#" data-reveal-id="view-my-hours-modal">View My Hours</a></li>
+	    <li><a href="#" data-reveal-id="events-sign-up-modal">Sign Up for Events</a></li>
 	  </ul>
 	</div>
 	<div class="six columns">
