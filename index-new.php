@@ -79,13 +79,20 @@
     <script type="text/javascript" src="/slick/slick.min.js"></script>
     <script type="text/javascript">   
       $(document).ready(function(){
-      $('.picture-gallery').slick({
-      dots: true,
-      arrows: false,
-      infinite: true,
-      autoplay: true,
-      autoplaySpeed: 5000
-      });
+          $('.picture-gallery').slick({
+              dots: true,
+              arrows: false,
+              infinite: true,
+              autoplay: true,
+              autoplaySpeed: 5000
+          });
+          function setPictureGalleryHeight() {
+              $('.picture-gallery').css({
+                  'height': ($(window).height() * 0.4) + 'px'
+              });
+          }
+          setPictureGalleryHeight();
+          $(window).on('resize', function() { setPictureGalleryHeight(); });
       });
     </script>
     <style>
@@ -93,7 +100,7 @@
       {
       margin-left: auto;
       margin-right: auto;
-      height: 40%;
+      /*height: 40%;*/
       }
     </style>
   </body>
