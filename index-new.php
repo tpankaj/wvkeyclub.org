@@ -31,7 +31,7 @@
 	       for ($i = 0; $i < 5; $i++)
                {
 	       ?>
-	    <div><img class="picture-gallery-attribs" data-lazy="http://media.wvkeyclub.org/homepage-picture-slideshow/index.php?id=<?php echo $picture_ids[$i]; ?>" /></div>
+	    <div><img class="picture-gallery-attribs"src="http://media.wvkeyclub.org/homepage-picture-slideshow/index.php?id=<?php echo $picture_ids[$i]; ?>" /></div>
 	    <?php
 	       }
 	       ?>
@@ -90,7 +90,6 @@
           $('.picture-gallery').slick({
               dots: true,
               arrows: false,
-              lazyLoad: 'ondemand',
               infinite: true,
               autoplay: true,
               autoplaySpeed: 5000
