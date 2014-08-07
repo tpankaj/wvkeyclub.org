@@ -6,14 +6,17 @@
 <!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
   <head>
     <title>Westview Key Club</title>
-    <link rel="stylesheet" type="text/css" href="/slick/slick.css">
-    
+    <link rel="stylesheet" type="text/css" href="/slick/slick.css">    
+
+    <style>
+      body {
+      background-color: #222222;
+      }
+    </style>
   </head>
 
   <body>
     <div id="mainContent">
-      <div class="row">
-	<div class="small-12 columns">
 	  <div class="picture-gallery">
 	    <div>Hi1</div>
 	    <div>Hi2</div>
@@ -26,8 +29,6 @@
 	    <div>Hi9</div>
 	    <div>Hi10</div>
 	  </div>
-	</div>
-      </div>
     </div>
     <script src="/js/vendor/jquery.js"></script>
     <script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>
