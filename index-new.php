@@ -67,7 +67,7 @@
                $i = 0;
                foreach($feed->get_items() as $item) {
              ?>
-	    <li><a href="/article?id=<?php echo $item->get_id(); ?>"><?php echo $item->get_title(); ?></a></li>
+	    <li><a href="/article?id=<?php echo urlencode($item->get_id()); ?>"><?php echo $item->get_title(); ?></a></li>
 	    <?php
 	           $i++;
 	           if ($i >= 4)
