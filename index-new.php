@@ -16,16 +16,7 @@
       <div class="row">
 	<div class="small-12 columns">
 	  <div class="picture-gallery">
-	    <div>Hi1</div>
-	    <div>Hi2</div>
-	    <div>Hi3</div>
-	    <div>Hi4</div>
-	    <div>Hi5</div>
-	    <div>Hi6</div>
-	    <div>Hi7</div>
-	    <div>Hi8</div>
-	    <div>Hi9</div>
-	    <div>Hi10</div>
+	    <div><img class="picture-gallery-img" data-lazy="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
 	  </div>
 	</div>
       </div>
@@ -36,11 +27,20 @@
     <script type="text/javascript">   
       $(document).ready(function(){
       $('.picture-gallery').slick({
+      lazyLoad: 'ondemand',
       autoplay: true,
       autoplaySpeed: 2000
       });
       });
     </script>
+    <style>
+      .picture-gallery-image
+      {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+    </style>
   </body>
 
 </html>
