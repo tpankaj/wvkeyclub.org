@@ -25,7 +25,6 @@
 	     $feed->init();
              $feed->handle_content_type();
 
-             $i = 0;
              foreach($feed->get_items() as $item) {
 	?>
 	  <div class="item">
@@ -33,7 +32,6 @@
 	    <h5><?php echo $item->get_date('j F Y | g:i a'); ?></h5>
 	    <?php
 	       echo $item->get_content();
-	       $i++;
 	    ?>
 	  </div>
 	  <?php
