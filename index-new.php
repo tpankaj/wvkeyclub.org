@@ -15,7 +15,7 @@
     <div id="mainContent">
       <div class="row">
 	<div class="12 columns">
-	  <div class="picture-gallery">
+	  <div class="picture-gallery picture-gallery-attribs">
 	    <?php
 	       $max_id = 0;
 	       if ($handle = opendir('/var/www/media.wvkeyclub.org/homepage-picture-slideshow/images')) {
@@ -31,7 +31,7 @@
 	       for ($i = 0; $i < 5; $i++)
                {
 	       ?>
-	    <div><img src="http://media.wvkeyclub.org/homepage-picture-slideshow/index.php?id=<?php echo $picture_ids[$i]; ?>" /></div>
+	    <div><img class="picture-gallery-attribs"src="http://media.wvkeyclub.org/homepage-picture-slideshow/index.php?id=<?php echo $picture_ids[$i]; ?>" /></div>
 	    <?php
 	       }
 	       ?>
@@ -87,7 +87,7 @@
               autoplaySpeed: 5000
           });
           function setPictureGalleryHeight() {
-              $('.picture-gallery').css({
+              $('.picture-gallery-attribs').css({
                   'height': ($(window).height() * 0.4) + 'px'
               });
           }
@@ -96,7 +96,7 @@
       });
     </script>
     <style>
-      .picture-gallery
+      .picture-gallery-attribs
       {
       margin-left: auto;
       margin-right: auto;
