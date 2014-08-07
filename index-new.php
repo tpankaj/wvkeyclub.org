@@ -31,7 +31,7 @@
 	       for ($i = 0; $i < 5; $i++)
                {
 	       ?>
-	    <div><img class="picture-gallery-img" src="http://media.wvkeyclub.org/homepage-picture-slideshow/index.php?id=<?php echo $picture_ids[$i]; ?>" /></div>
+	    <div><img src="http://media.wvkeyclub.org/homepage-picture-slideshow/index.php?id=<?php echo $picture_ids[$i]; ?>" /></div>
 	    <?php
 	       }
 	       ?>
@@ -89,7 +89,7 @@
       });
     </script>
     <style>
-      .picture-gallery-img
+      .picture-gallery
       {
       margin-left: auto;
       margin-right: auto;
