@@ -16,12 +16,25 @@
       <div class="row">
 	<div class="small-12 columns">
 	  <div class="picture-gallery">
-	    <div><img class="picture-gallery-img" src="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
-	    <div><img class="picture-gallery-img" src="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
-	    <div><img class="picture-gallery-img" src="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
-	    <div><img class="picture-gallery-img" src="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
-	    <div><img class="picture-gallery-img" src="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
-	    <div><img class="picture-gallery-img" src="http://ofbuckleyandbeatles.files.wordpress.com/2011/01/testpattern.gif" /></div>
+	    <?php
+	       $max_id = 0;
+	       if ($handle = opendir('/var/www/media.wvkeyclub.org/homepage-picture-slideshow/images')) {
+	           while (false !== ($entry = readdir($handle))) {
+	               if ($entry != "." && $entry != "..") {
+                           $max_id++;
+    	               }
+                   }
+	       }
+	       $max_id--;
+	       $picture_ids = range(0, $max_id);
+	       shuffle($picture_ids);
+	       for ($i = 0; $i < 10; $i++)
+               {
+	       ?>
+	    <div><img class="picture-gallery-img" src="http://media.wvkeyclub.org/homepage-picture-slideshow/index.php?id=<?php echo $i; ?>" /></div>
+	    <?php
+	       }
+	       ?>
 	  </div>
 	</div>
       </div>
@@ -33,10 +46,11 @@
       $(document).ready(function(){
       $('.picture-gallery').slick({
       dots: true,
+      arrows: false,
       infinite: true,
       lazyLoad: 'ondemand',
       autoplay: true,
-      autoplaySpeed: 2000
+      autoplaySpeed: 3000
       });
       });
     </script>
