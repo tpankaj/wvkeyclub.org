@@ -40,13 +40,13 @@
       </div>
       <div class="row">
 	<div class="three columns">
-	  <h3>Quick Links</h3>
+	  <h3 style="text-align:center;">Quick Links</h3>
 	</div>
 	<div class="six columns">
-	  <h3>What is Key Club?</h3>
+	  <h3 style="text-align:center;">What is Key Club?</h3>
 	</div>
 	<div class="three columns">
-	  <h3>Announcements</h3>
+	  <h3 style="text-align:center;">Announcements</h3>
 	</div>
       </div>
     </div>
