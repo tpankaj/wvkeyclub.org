@@ -49,6 +49,7 @@
 
       <div class="row">
 	<div class="twelve columns">
+	  <h5><?php echo $article->get_date('j F Y | g:i a'); ?></h5>
 	  <?php echo $article->get_content(); ?>
 	</div>
       </div>
