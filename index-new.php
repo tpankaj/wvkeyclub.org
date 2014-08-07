@@ -47,6 +47,30 @@
 	</div>
 	<div class="three columns">
 	  <h3 style="text-align:center;">Announcements</h3>
+	  <ul>
+	    <?php
+	       date_default_timezone_set("America/Los_Angeles");
+	       require_once($_SERVER['DOCUMENT_ROOT'] . "/lib/simplepie/autoloader.php");
+
+	       $feed = new SimplePie();
+	       $feed->enable_cache(false);
+ 	       $feed->set_feed_url("http://blog.wvkeyclub.org/feeds/posts/default");
+	       $feed->init();
+               $feed->handle_content_type();
+
+               $i = 0;
+               foreach($feed->get_items() as $item) {
+             ?>
+	    <li><a href="/article?id=<?php echo $item->get_id(); ?>"><?php echo $item->get_title(); ?></a></li>
+	    <?php
+	           $i++;
+	           if ($i >= 4)
+	           {
+	              break;
+	           }
+	        }
+	     ?>
+	  </ul>
 	</div>
       </div>
     </div>

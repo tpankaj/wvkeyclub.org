@@ -20,11 +20,12 @@
 	     require_once($_SERVER['DOCUMENT_ROOT'] . "/lib/simplepie/autoloader.php");
 
 	     $feed = new SimplePie();
-	     $feed->set_cache_location("/tmp/simplepie");
+	     $feed->enable_cache(false);
 	     $feed->set_feed_url("http://wvkcsecretaries.blogspot.com/feeds/posts/default");
 	     $feed->init();
              $feed->handle_content_type();
 
+             $i = 0;
              foreach($feed->get_items() as $item) {
 	?>
 	  <div class="item">
@@ -32,6 +33,7 @@
 	    <h5><?php echo $item->get_date('j F Y | g:i a'); ?></h5>
 	    <?php
 	       echo $item->get_content();
+	       $i++;
 	    ?>
 	  </div>
 	  <?php
