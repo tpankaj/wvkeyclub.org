@@ -81,6 +81,7 @@
       </div>
     </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/hours/view-my-hours-modal.php"); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/events/events-sign-up-modal.php"); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/footer.php"); ?>
     <script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="/slick/slick.min.js"></script>
