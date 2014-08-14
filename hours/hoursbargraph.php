@@ -64,8 +64,12 @@
       ['<?php echo $member_names_array[2]; ?>', <?php echo $member_hours_array[2]; ?>]
       ]);
 
+      var podium_options = {
+          vAxis: { minValue : 0 }
+      };
+
       var podium = new google.visualization.ColumnChart(document.getElementById('podium_div'));
-      podium.draw(podium_data); 
+      podium.draw(podium_data, podium_options); 
       }
     </script>
       
