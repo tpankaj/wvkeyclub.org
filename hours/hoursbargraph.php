@@ -50,7 +50,7 @@
       ]);
       
       var options = {
-          title : 'Westview Key Club Service Hours',
+          title : 'Westview Key Club Service Hours'
       }
 
       var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
