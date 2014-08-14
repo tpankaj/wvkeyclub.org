@@ -80,7 +80,7 @@
 
       <div class="row">
 	<div class="twelve columns">
-	  <div id="chart_div" style="width:400px; height:<?php echo intval($member_count * 1.2); ?>em">
+	  <div id="chart_div" style="width:800px; height:<?php echo intval($member_count * 2); ?>em">
 	  </div>
 	</div>
       </div>
