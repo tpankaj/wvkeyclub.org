@@ -42,7 +42,7 @@
 	 {
 	     echo ',';
 	 }
-	 echo $member_count;
+	 echo $i;
 	 }
 	 ?>
       ]);
