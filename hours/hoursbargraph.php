@@ -27,13 +27,10 @@
          {
              if (array_key_exists("hours", $member)) {
                  $hours_list[$member["fname"] . " " . $member["lname"]] = sum_hours($member["hours"]);
+                 $member_count++;
              }
-             else {
-                 $hours_list[$member["fname"] . " " . $member["lname"]] = 0;
-             }
-             $member_count++;
          }
-         asort($hours_list);
+         arsort($hours_list);
          $i = 0;
          foreach ($hours_list as $member_name => $member_hours)
          {
