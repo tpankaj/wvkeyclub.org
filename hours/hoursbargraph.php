@@ -41,7 +41,7 @@
          ['<?php echo $member_name; ?>', <?php echo $member_hours; ?>]
       <?php
 	 $i++;
-	 if ($i != $member_count)
+	 if ($i != $member_count - 1)
 	 {
 	     echo ',';
 	 }
