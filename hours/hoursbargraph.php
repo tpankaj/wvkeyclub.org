@@ -12,7 +12,7 @@
       google.load('visualization', '1.0', {'packages':['corechart']});
       google.setOnLoadCallback(drawChart);
       function drawChart() {
-      var data = google.visualization.arrayToDataTable([
+      var chart_data = google.visualization.arrayToDataTable([
       ['Name', 'Hours'],
       <?php
 	 require_once($_SERVER["DOCUMENT_ROOT"] . "/lib/hours.php");
@@ -46,12 +46,26 @@
 	 ?>
       ]);
       
-      var options = {
+      var chart_options = {
           title : 'Westview Key Club Service Hours'
       };
 
       var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
-      chart.draw(data, options);
+      chart.draw(chart_data, chart_options);
+
+      var podium_data = google.visualization.arrayToDataTable([
+      ['Name', 'Hours'],
+      <?php
+	 $member_names_array = array_keys($hours_list);
+	 $member_hours_array = array_values($hours_list);
+	 echo '[\'$member_names_array[1]\', $member_hours_array[1]],\n';
+	 echo '[\'$member_names_array[0]\', $member_hours_array[0]],\n';
+	 echo '[\'$member_names_array[2]\', $member_hours_array[2]]\n';
+	 ?>
+      ]);
+
+      var podium = new google.visualization.ColumnChart(document.getElementById('podium_div'));
+      podium.draw(podium_data); 
       }
     </script>
       
@@ -80,7 +94,13 @@
 
       <div class="row">
 	<div class="twelve columns">
-	  <div id="chart_div" style="width:800px; height:<?php echo intval($member_count * 2); ?>em">
+	  <div id="podium_div" style="width:800px; height:600px">
+	  </div>
+	</div>
+      </div>
+      <div class="row">
+	<div class="twelve columns">
+	  <div id="chart_div" style="width:800px; height:<?php echo intval($member_count * 4); ?>em">
 	  </div>
 	</div>
       </div>
