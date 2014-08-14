@@ -58,9 +58,9 @@
       <?php
 	 $member_names_array = array_keys($hours_list);
 	 $member_hours_array = array_values($hours_list);
-	 echo '[\'$member_names_array[1]\', $member_hours_array[1]],\n';
-	 echo '[\'$member_names_array[0]\', $member_hours_array[0]],\n';
-	 echo '[\'$member_names_array[2]\', $member_hours_array[2]]\n';
+	 echo "[\'$member_names_array[1]\', $member_hours_array[1]],\n";
+	 echo "[\'$member_names_array[0]\', $member_hours_array[0]],\n";
+	 echo "[\'$member_names_array[2]\', $member_hours_array[2]]\n";
 	 ?>
       ]);
 
