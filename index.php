@@ -21,7 +21,7 @@
 
 	     $feed = new SimplePie();
 	     $feed->enable_cache(false);
-	     $feed->set_feed_url("http://wvkcsecretaries.blogspot.com/feeds/posts/default");
+	     $feed->set_feed_url("http://blog.wvkeyclub.org/feeds/posts/default");
 	     $feed->init();
              $feed->handle_content_type();
 
