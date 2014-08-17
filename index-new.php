@@ -19,7 +19,8 @@
 	    <?php
 	       $max_id = 0;
 	       if ($handle = opendir('/var/www/media.wvkeyclub.org/homepage-picture-slideshow/images')) {
-	           while (false !== ($entry = readdir($handle))) {
+	           while (false !== ($entry = readdir($handle)))
+	           {
 	               if ($entry != "." && $entry != "..") {
                            $max_id++;
     	               }
