@@ -55,14 +55,6 @@
 	  <p>
 	    Tell your friends to join Key Club and join us on our adventures of the 2014-2015 year.
 	  </p>
-	  <h3> Key Club Pledge</h3>
-	  <p>
-	    I pledge, on my honor,<br />
-	    to uphold the Objects of Key Club International;<br />
-	    to build my home, school and community;<br />
-	    to serve my nation and God;<br />
-	    and combat all forces which tend to undermine these institutions.
-	  </p>
 	</div>
 	<div class="small-3 columns">
 	  <h4> More Information</h4>
@@ -74,6 +66,14 @@
 	      <li><a href="http://kiwanis.org/">Kiwanis International</a></li>
 	      <li><a href="http://www.ranchobernardokiwanis.org">Kiwanis Club of Rancho Bernardo</a></li>
 	    </ul>
+	  </p>
+	  <h4> Key Club Pledge</h4>
+	  <p>
+	    I pledge, on my honor,<br />
+	    to uphold the Objects of Key Club International;<br />
+	    to build my home, school and community;<br />
+	    to serve my nation and God;<br />
+	    and combat all forces which tend to undermine these institutions.
 	  </p>
 	</div>
       </div>
