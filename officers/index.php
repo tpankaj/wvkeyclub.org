@@ -61,7 +61,7 @@
 	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
-	      <?php //<img src="http://media.wvkeyclub.org/officers/lily-vo.jpg" height="512" width="512" alt="" /> ?>
+	      <!--<img src="http://media.wvkeyclub.org/officers/lily-vo.jpg" height="512" width="512" alt="" />-->
 	    </div>
 	  </div>
 	  <div class="row">
@@ -85,7 +85,7 @@
 	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
-	      <?php //<img src="http://media.wvkeyclub.org/officers/shaoxiong-liu.jpg" height="512" width="512" alt="" /> ?>
+	      <!--<img src="http://media.wvkeyclub.org/officers/shaoxiong-liu.jpg" height="512" width="512" alt="" />-->
 	    </div>
 	  </div>
 	  <div class="row">
@@ -106,7 +106,7 @@
 	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
-	      <?php //<img src="http://media.wvkeyclub.org/officers/brandon-zhang.jpg" height="512" width="512" alt="" /> ?>
+	      <!--<img src="http://media.wvkeyclub.org/officers/brandon-zhang.jpg" height="512" width="512" alt="" /> ?>-->
 	    </div>
 	  </div>
 	  <div class="row">
@@ -133,7 +133,7 @@
 	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
-	      <?php <img src="http://media.wvkeyclub.org/officers/luqmaan-bokhary.jpg" height="512" width="512" alt="" /> ?>
+	      <!--<img src="http://media.wvkeyclub.org/officers/luqmaan-bokhary.jpg" height="512" width="512" alt="" />-->
 	    </div>
 	  </div>
 	  <div class="row">
@@ -157,7 +157,7 @@
 	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
-	      <?php <img src="http://media.wvkeyclub.org/officers/alec-chen.jpg" height="512" width="512" alt="" /> ?>
+	      <!--<img src="http://media.wvkeyclub.org/officers/alec-chen.jpg" height="512" width="512" alt="" /> ?>-->
 	    </div>
 	  </div>
 	  <div class="row">
