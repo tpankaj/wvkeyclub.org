@@ -48,8 +48,14 @@
 	</div>
 	<div class="six columns">
 	  <h3 style="text-align:center;">What is Key Club?</h3>
-	  <ul>
-	  </ul>
+	  <h4>Westview Key Club</h4>
+	  <p>
+	    Westview Key Club is the largest community service club on campus. We meet every Thursday at lunch in room L101 (Oydna).
+	  </p>
+	  <h4>Key Club International</h4>
+	  <p>
+	    With over a quarter million members and 5,000 clubs worldwide, Key Club International is a student-led organization that provides its members with opportunities to provide service, build character, and develop leadership. Sponsored by Kiwanis International, high school student members of Key Club perform acts of service in their communities. Key Club International also fosters great relations with March of Dimes, Children’s Miracle Network, and UNICEF, targeting their fundraisers to benefit these three major organizations and serve children of the world.
+	  </p>
 	</div>
 	<div class="three columns">
 	  <h3 style="text-align:center;">Announcements</h3>
