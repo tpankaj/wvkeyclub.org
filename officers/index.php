@@ -50,30 +50,9 @@
 	</div>
       </div>
 
-      <!-- Michael Zhang, Lt. Governor -->
-      <div class="row officer">
-	<div class="four columns officer-title">
-	  <div class="row">
-	    <div class="twelve columns">
-	      <!--<img src="/officers/images/michael-zhang.jpg" height="512" width="512" alt="" />-->
-	    </div>
-	  </div>
-	  <div class="row">
-	    <div class="twelve columns">
-	      <h4>
-		<a href="mailto:d37s.cnhkc.ltg@gmail.com">Michael Zhang</a><br />
-		D37S Lt. Governor
-	      </h4>
-	    </div>
-	  </div>
-	</div>
-	<div class="eight columns">
-	</div>
-      </div>
-
       <div class="row">
 	<div class="twelve columns">
-	  <h3>Club Executive Board</h3>
+	  <h3>Executive Board</h3>
 	</div>
       </div>
 
@@ -82,7 +61,7 @@
 	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
-	      <img src="/officers/images/lily-vo.jpg" height="512" width="512" alt="" />
+	      <img src="http://media.wvkeyclub.org/officers/lily-vo.jpg" height="512" width="512" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -106,7 +85,7 @@
 	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
-	      <!--<img src="/officers/images/shaoxiong-liu.jpg" height="512" width="512" alt="" />-->
+	      <img src="http://media.wvkeyclub.org/officers/shaoxiong-liu.jpg" height="512" width="512" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -127,7 +106,7 @@
 	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
-	      <img src="/officers/images/brandon-zhang.jpg" height="512" width="512" alt="" />
+	      <img src="http://media.wvkeyclub.org/officers/brandon-zhang.jpg" height="512" width="512" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -154,7 +133,7 @@
 	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
-	      <img src="/officers/images/luqmaan-bokhary.jpg" height="512" width="512" alt="" />
+	      <img src="http://media.wvkeyclub.org/officers/luqmaan-bokhary.jpg" height="512" width="512" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
@@ -178,7 +157,7 @@
 	<div class="four columns officer-title">
 	  <div class="row">
 	    <div class="twelve columns">
-	      <img src="/officers/images/alec-chen.jpg" height="512" width="512" alt="" />
+	      <img src="http://media.wvkeyclub.org/officers/alec-chen.jpg" height="512" width="512" alt="" />
 	    </div>
 	  </div>
 	  <div class="row">
