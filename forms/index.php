@@ -34,11 +34,11 @@
 	    The Westview Key Club registration process requires all members to fill out the Online WVKC Registration Form, Trip Permit, and turn in a $13 fee. Checks can be made payable to Westview Key Club. The Early Bird deadline for the $13 fee is 1 November 2014.
 	  </p>
 	  <p>
-	    You must turn print and fill out the Trip Permit to turn a physical copy to Westview Key Club. The WVKC Registration Form is available online, but you may turn in a physical copy of the form to Westview Key Club as an alternative to filling out the online form.
+	    You must print and fill out the Trip Permit and turn a physical copy to Westview Key Club. The WVKC Registration Form is available online, but you may turn in a physical copy of the form to Westview Key Club as an alternative to filling out the online form.
 	  </p>
 	  <p>
 	    <a href="/forms/Trip%20Permit.pdf">Trip Permit</a><br />
-	    <a href="GOOGLE FORMS LINK">Online WVKC Registration Form</a><br />
+	    <a href="http://docs.google.com/forms/d/1bBdQygqbBgX_QxqkRMmWEqhdUKKzMIEYJZ3-T3IeNx4/viewform">Online WVKC Registration Form</a><br />
 	    <a href="/forms/WVKC%20Registration%20Form.pdf">WVKC Registration Form (pdf)</a>
 	  </p>
 	</div>
