@@ -39,7 +39,7 @@
 	  <p>
 	    <a href="/forms/Trip%20Permit.pdf">Trip Permit</a><br />
 	    <a href="http://docs.google.com/forms/d/1bBdQygqbBgX_QxqkRMmWEqhdUKKzMIEYJZ3-T3IeNx4/viewform">Online WVKC Registration Form</a><br />
-	    <a href="/forms/WVKC%20Registration%20Form.pdf">WVKC Registration Form (pdf)</a>
+	    <a href="/forms/WVKC%20Registration%20Form.pdf">WVKC Registration Form (pdf)</a> (optional)
 	  </p>
 	</div>
       </div>
