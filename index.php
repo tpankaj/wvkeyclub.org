@@ -45,6 +45,7 @@
 	  <ul>
 	    <li><a href="#" data-reveal-id="view-my-hours-modal">View My Hours</a></li>
 	    <li><a href="#" data-reveal-id="events-sign-up-modal">Sign Up for Events</a></li>
+	    <li><h4><a href="http://docs.google.com/forms/d/1bBdQygqbBgX_QxqkRMmWEqhdUKKzMIEYJZ3-T3IeNx4/viewform">CLICK HERE TO REGISTER NOW!</a></h4></li>
 	  </ul>
 	</div>
 	<div class="six columns">
