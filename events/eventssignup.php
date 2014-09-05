@@ -67,7 +67,6 @@
 	       else {
 	       ?>
 	       <li><a href="/events">&larr; Go back</a></li>
-	    ?>
 	    <?php
 	       }
 	       ?>
