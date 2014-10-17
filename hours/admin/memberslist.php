@@ -103,8 +103,8 @@
       
     </div>
 
-    <div id="delete-modal" class="reveal-modal" data-reveal>
-    </div>
+    <!--<div id="delete-modal" class="reveal-modal" data-reveal>
+    </div>-->
 
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/footer.php"); ?>
     <script src="/js/jquery.tablesorter.min.js"></script>
