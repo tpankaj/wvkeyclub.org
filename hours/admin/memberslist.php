@@ -104,6 +104,7 @@
     </div>
 
     <div id="delete-modal" class="reveal-modal" data-reveal>
+      <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/hours/admin/deletemember_confirm.php"); ?>
     </div>
 
     <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/common/footer.php"); ?>
