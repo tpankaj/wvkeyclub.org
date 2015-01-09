@@ -45,14 +45,6 @@
     </header>
 
     <div id="mainContent">
-
-      <div class="row">
-	<div class="small-12 columns">
-	  <p>
-	    See a discrepancy in your hours? Don't hesitate to email our secretary, Brandon Zhang, at <a href="mailto:brandon.zhang@wvkeyclub.org">brandon.zhang@wvkeyclub.org</a>.
-	  </p>
-	</div>
-      </div>
       
       <div class="row">
 	<div class="small-12 columns">
@@ -105,9 +97,17 @@
 	  </table>
 	</div>
       </div>
+
+      <div class="row">
+	<div class="small-12 columns">
+	  <p>
+	    See a discrepancy in your hours? Don't hesitate to email our secretary, Brandon Zhang, at <a href="mailto:brandon.zhang@wvkeyclub.org">brandon.zhang@wvkeyclub.org</a>.
+	  </p>
+	</div>
+      </div>
       
     </div>
-
+    
     <div id="delete-modal" class="reveal-modal" data-reveal>
     </div>
 
