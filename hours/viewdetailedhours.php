@@ -48,6 +48,14 @@
 
       <div class="row">
 	<div class="small-12 columns">
+	  <p>
+	    See a discrepancy in your hours? Don't hesitate to email our secretary, Brandon Zhang, at <a href="mailto:brandon.zhang@wvkeyclub.org">brandon.zhang@wvkeyclub.org</a>.
+	  </p>
+	</div>
+      </div>
+      
+      <div class="row">
+	<div class="small-12 columns">
 	  <h3>Total Hours</h3>
 	  <p>
 	    You have a total of <?php echo $hours_sum; ?> hours.
